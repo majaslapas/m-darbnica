@@ -2,104 +2,61 @@
   "v": 3,
   "attachments": {},
   "boards": {
-    "Kino-Apps.dc.html": {
-      "h": 1280,
-      "title": "B · Kino — applications",
-      "w": 1920,
-      "x": 2000,
-      "y": 3280
-    },
-    "Kino-Board.dc.html": {
-      "h": 1280,
-      "title": "B · Kino — brand board",
-      "w": 1920,
-      "x": 0,
-      "y": 3280
-    },
-    "Main.dc.html": {
-      "h": 1200,
-      "title": "Cover",
-      "w": 1920,
-      "x": 0,
-      "y": 0
-    },
     "Partitura-Apps.dc.html": {
       "h": 1280,
       "title": "C · Partitūra — applications",
       "w": 1920,
       "x": 2000,
-      "y": 4960
+      "y": 1680
     },
     "Partitura-Board.dc.html": {
       "h": 1280,
       "title": "C · Partitūra — brand board",
       "w": 1920,
       "x": 0,
-      "y": 4960
+      "y": 1680
     },
     "Plate-Apps.dc.html": {
       "h": 1280,
       "title": "A · Plate — applications",
       "w": 1920,
       "x": 2000,
-      "y": 1600
+      "y": 0
     },
     "Plate-Board.dc.html": {
       "h": 1280,
       "title": "A · Plate — brand board",
       "w": 1920,
       "x": 0,
-      "y": 1600
-    },
-    "Reveal.dc.html": {
-      "h": 1200,
-      "is_interactive": true,
-      "title": "Colour reveal (interactive)",
-      "w": 1920,
-      "x": 2000,
       "y": 0
     },
     "Kadrs-Board.dc.html": {
       "x": 0,
-      "y": 6640,
+      "y": 3360,
       "w": 1920,
       "h": 1280,
       "title": "D · Kadrs — brand board"
     },
     "Kadrs-Apps.dc.html": {
       "x": 2000,
-      "y": 6640,
+      "y": 3360,
       "w": 1920,
       "h": 1280,
       "title": "D · Kadrs — applications"
     },
     "Vilnis-Board.dc.html": {
       "x": 0,
-      "y": 8320,
+      "y": 5040,
       "w": 1920,
       "h": 1280,
       "title": "E · Jaunais vilnis — brand board"
     },
     "Vilnis-Apps.dc.html": {
       "x": 2000,
-      "y": 8320,
+      "y": 5040,
       "w": 1920,
       "h": 1280,
       "title": "E · Jaunais vilnis — applications"
-    },
-    "Kontaktlapa-Board.dc.html": {
-      "x": 0,
-      "y": 10000,
-      "w": 1920,
-      "h": 1280,
-      "title": "F · Kontaktlapa — brand board"
-    },
-    "Kontaktlapa-Apps.dc.html": {
-      "x": 2000,
-      "y": 10000,
-      "w": 1920,
-      "h": 1280,
-      "title": "F · Kontaktlapa — applications"
     }
   },
   "createdOnFiles": {
@@ -111,29 +68,13 @@
     "view": "canvas"
   },
   "notes": {
-    "t0": {
-      "kind": "title1",
-      "maxW": 3920,
-      "text": "M/darbnīca — six brand directions",
-      "w": 240,
-      "x": 0,
-      "y": -300
-    },
     "tA": {
       "kind": "title1",
       "maxW": 3920,
       "text": "A · Plate — the record sleeve",
       "w": 240,
       "x": 0,
-      "y": 1320
-    },
-    "tB": {
-      "kind": "title1",
-      "maxW": 3920,
-      "text": "B · Kino — the silver screen",
-      "w": 240,
-      "x": 0,
-      "y": 3000
+      "y": -280
     },
     "tC": {
       "kind": "title1",
@@ -141,48 +82,34 @@
       "text": "C · Partitūra — the score",
       "w": 240,
       "x": 0,
-      "y": 4680
+      "y": 1400
     },
     "tD": {
       "kind": "title1",
       "maxW": 3920,
-      "text": "D · Kadrs — the film still (light)",
+      "text": "D · Kadrs — the film still",
       "w": 240,
       "x": 0,
-      "y": 6360
+      "y": 3080
     },
     "tE": {
       "kind": "title1",
       "maxW": 3920,
-      "text": "E · Jaunais vilnis — the New Wave poster (light)",
+      "text": "E · Jaunais vilnis — the New Wave poster",
       "w": 240,
       "x": 0,
-      "y": 8040
-    },
-    "tF": {
-      "kind": "title1",
-      "maxW": 3920,
-      "text": "F · Kontaktlapa — the contact sheet (light)",
-      "w": 240,
-      "x": 0,
-      "y": 9720
+      "y": 4760
     }
   },
   "order": [
-    "Main.dc.html",
-    "Reveal.dc.html",
     "Plate-Board.dc.html",
     "Plate-Apps.dc.html",
-    "Kino-Board.dc.html",
-    "Kino-Apps.dc.html",
     "Partitura-Board.dc.html",
     "Partitura-Apps.dc.html",
     "Kadrs-Board.dc.html",
     "Kadrs-Apps.dc.html",
     "Vilnis-Board.dc.html",
-    "Vilnis-Apps.dc.html",
-    "Kontaktlapa-Board.dc.html",
-    "Kontaktlapa-Apps.dc.html"
+    "Vilnis-Apps.dc.html"
   ],
   "pages": [],
   "title": "M/darbnīca Brand Boards"
