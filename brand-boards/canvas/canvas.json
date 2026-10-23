@@ -1,0 +1,34 @@
+{
+  "v": 3,
+  "createdOnFiles": {"v": 1, "at": "2026-10-23T10:45:00Z"},
+  "title": "M/darbnīca Brand Boards",
+  "launch": {"view": "canvas"},
+  "pages": [],
+  "boards": {
+    "Main.dc.html": {"x": 0, "y": 0, "w": 1920, "h": 1200, "title": "Cover"},
+    "Reveal.dc.html": {"x": 2000, "y": 0, "w": 1920, "h": 1200, "title": "Colour reveal (interactive)", "is_interactive": true},
+    "Plate-Board.dc.html": {"x": 0, "y": 1600, "w": 1920, "h": 1280, "title": "A · Plate — brand board"},
+    "Plate-Apps.dc.html": {"x": 2000, "y": 1600, "w": 1920, "h": 1280, "title": "A · Plate — applications"},
+    "Kino-Board.dc.html": {"x": 0, "y": 3280, "w": 1920, "h": 1280, "title": "B · Kino — brand board"},
+    "Kino-Apps.dc.html": {"x": 2000, "y": 3280, "w": 1920, "h": 1280, "title": "B · Kino — applications"},
+    "Partitura-Board.dc.html": {"x": 0, "y": 4960, "w": 1920, "h": 1280, "title": "C · Partitūra — brand board"},
+    "Partitura-Apps.dc.html": {"x": 2000, "y": 4960, "w": 1920, "h": 1280, "title": "C · Partitūra — applications"}
+  },
+  "order": [
+    "Main.dc.html",
+    "Reveal.dc.html",
+    "Plate-Board.dc.html",
+    "Plate-Apps.dc.html",
+    "Kino-Board.dc.html",
+    "Kino-Apps.dc.html",
+    "Partitura-Board.dc.html",
+    "Partitura-Apps.dc.html"
+  ],
+  "notes": {
+    "t0": {"x": 0, "y": -300, "text": "M/darbnīca — three brand directions", "kind": "title1", "maxW": 3920},
+    "tA": {"x": 0, "y": 1320, "text": "A · Plate — the record sleeve", "kind": "title1", "maxW": 3920},
+    "tB": {"x": 0, "y": 3000, "text": "B · Kino — the silver screen", "kind": "title1", "maxW": 3920},
+    "tC": {"x": 0, "y": 4680, "text": "C · Partitūra — the score", "kind": "title1", "maxW": 3920}
+  },
+  "designSystems": []
+}

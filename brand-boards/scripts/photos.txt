@@ -1,0 +1,23 @@
+# Source photos (from https://www.mdarbnica.lv/lv/photos), by index used in scripts/process.py
+032 https://static.wixstatic.com/media/59bc2f_5e285b7a06b44f5f842444861acd54a0~mv2.jpg
+077 https://static.wixstatic.com/media/59bc2f_958abfdbafaf4b028593e95fc66a6f56~mv2.jpg
+103 https://static.wixstatic.com/media/59bc2f_9b83e009c6ad42d69d3de904bc6fc40b~mv2.jpg
+106 https://static.wixstatic.com/media/59bc2f_b5573313cac447dcb497584c512e43ad~mv2.jpg
+141 https://static.wixstatic.com/media/46eec9_fe7197008c85452cb1addf50e4814b43~mv2.jpeg
+143 https://static.wixstatic.com/media/46eec9_049ba1cd33c740d0bdcbe9853702a1e6~mv2.jpeg
+178 https://static.wixstatic.com/media/46eec9_1374de5c9dff46d0ac4018857f5d09eb~mv2.jpg
+179 https://static.wixstatic.com/media/46eec9_09f6f635acd54c3cac102a9a377e872d~mv2.jpg
+184 https://static.wixstatic.com/media/46eec9_47f5ea18c4504e5ea78207aae4e6f177~mv2.jpg
+185 https://static.wixstatic.com/media/46eec9_0d72850a1e5f4216ab6e5f163be35e83~mv2.jpg
+186 https://static.wixstatic.com/media/46eec9_3e919c4383524515bcd49c9c4e6f487a~mv2.jpg
+191 https://static.wixstatic.com/media/46eec9_927a344726144960b306049f255bd7dc~mv2.jpg
+285 https://static.wixstatic.com/media/46eec9_790c0d775c4f4e988c70f23d209becbc~mv2.jpg
+352 https://static.wixstatic.com/media/46eec9_42bedec2ca4d40439cfe8154256a770f~mv2.jpg
+355 https://static.wixstatic.com/media/46eec9_f7d539107bcc4d6dadd1d1cb722ac848~mv2.jpg
+363 https://static.wixstatic.com/media/75c9ca_89d3df5c6f2049c88b79686821f8a23f~mv2.jpg
+366 https://static.wixstatic.com/media/75c9ca_3d51c68db5a945c0b743b5ebc4c31805~mv2.jpg
+371 https://static.wixstatic.com/media/75c9ca_3cade1d39362408b8ce1095bc8c50dea~mv2.jpg
+374 https://static.wixstatic.com/media/75c9ca_0799ec75b18a4e399e89cef1c7dd93e3~mv2.png
+375 https://static.wixstatic.com/media/75c9ca_961eeac46d61474ba2869e5769f8ecd5~mv2.jpg
+384 https://static.wixstatic.com/media/75c9ca_86b085f50413481d83d015bda3ea0953~mv2.jpg
+389 https://static.wixstatic.com/media/75c9ca_337388d5743447e69ab9e4954fafa728~mv2.jpg
