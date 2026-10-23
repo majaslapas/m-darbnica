@@ -2,19 +2,19 @@
   "v": 3,
   "attachments": {},
   "boards": {
-    "Partitura-Apps.dc.html": {
+    "Kadrs-Apps.dc.html": {
       "h": 1280,
-      "title": "C · Partitūra — applications",
+      "title": "D · Kadrs — applications",
       "w": 1920,
       "x": 2000,
-      "y": 1680
+      "y": 3360
     },
-    "Partitura-Board.dc.html": {
+    "Kadrs-Board.dc.html": {
       "h": 1280,
-      "title": "C · Partitūra — brand board",
+      "title": "D · Kadrs — brand board",
       "w": 1920,
       "x": 0,
-      "y": 1680
+      "y": 3360
     },
     "Plate-Apps.dc.html": {
       "h": 1280,
@@ -30,33 +30,47 @@
       "x": 0,
       "y": 0
     },
-    "Kadrs-Board.dc.html": {
-      "x": 0,
-      "y": 3360,
-      "w": 1920,
+    "Vilnis-Apps.dc.html": {
       "h": 1280,
-      "title": "D · Kadrs — brand board"
-    },
-    "Kadrs-Apps.dc.html": {
+      "title": "E · Jaunais vilnis — applications",
+      "w": 1920,
       "x": 2000,
-      "y": 3360,
-      "w": 1920,
-      "h": 1280,
-      "title": "D · Kadrs — applications"
+      "y": 5040
     },
     "Vilnis-Board.dc.html": {
+      "h": 1280,
+      "title": "E · Jaunais vilnis — brand board",
+      "w": 1920,
       "x": 0,
-      "y": 5040,
-      "w": 1920,
-      "h": 1280,
-      "title": "E · Jaunais vilnis — brand board"
+      "y": 5040
     },
-    "Vilnis-Apps.dc.html": {
-      "x": 2000,
-      "y": 5040,
-      "w": 1920,
+    "Jugends-Board.dc.html": {
       "h": 1280,
-      "title": "E · Jaunais vilnis — applications"
+      "title": "C · Jūgends — brand board",
+      "w": 1920,
+      "x": 0,
+      "y": 1680
+    },
+    "Jugends-Apps.dc.html": {
+      "h": 1280,
+      "title": "C · Jūgends — applications",
+      "w": 1920,
+      "x": 2000,
+      "y": 1680
+    },
+    "Zibspuldze-Board.dc.html": {
+      "h": 1280,
+      "title": "F · Zibspuldze — brand board",
+      "w": 1920,
+      "x": 0,
+      "y": 6720
+    },
+    "Zibspuldze-Apps.dc.html": {
+      "h": 1280,
+      "title": "F · Zibspuldze — applications",
+      "w": 1920,
+      "x": 2000,
+      "y": 6720
     }
   },
   "createdOnFiles": {
@@ -79,7 +93,7 @@
     "tC": {
       "kind": "title1",
       "maxW": 3920,
-      "text": "C · Partitūra — the score",
+      "text": "C · Jūgends — Rīga Art Nouveau, new retro",
       "w": 240,
       "x": 0,
       "y": 1400
@@ -99,17 +113,27 @@
       "w": 240,
       "x": 0,
       "y": 4760
+    },
+    "tF": {
+      "kind": "title1",
+      "maxW": 3920,
+      "text": "F · Zibspuldze — the flash",
+      "w": 240,
+      "x": 0,
+      "y": 6440
     }
   },
   "order": [
     "Plate-Board.dc.html",
     "Plate-Apps.dc.html",
-    "Partitura-Board.dc.html",
-    "Partitura-Apps.dc.html",
+    "Jugends-Board.dc.html",
+    "Jugends-Apps.dc.html",
     "Kadrs-Board.dc.html",
     "Kadrs-Apps.dc.html",
     "Vilnis-Board.dc.html",
-    "Vilnis-Apps.dc.html"
+    "Vilnis-Apps.dc.html",
+    "Zibspuldze-Board.dc.html",
+    "Zibspuldze-Apps.dc.html"
   ],
   "pages": [],
   "title": "M/darbnīca Brand Boards"

@@ -14,10 +14,15 @@ body{margin:0;background:#141311}
 a{color:#EDE7DC;text-decoration:none}a:hover{color:#EFC4BE}
 .grain{background-image:url(/_blob/a2a3435450af8ea5fc7ca00e8520fdc7);background-size:220px 220px}
 .grain-all{background-image:url(/_blob/f420af1d0eff82f3e852cb941adf81a4);background-size:320px 320px}
-.rv .rv-col{opacity:0;transition:opacity 1.6s ease}
-.rv:hover .rv-col{opacity:1}
 .btn-rouge{background:#CF5C63;color:#141311}
 .btn-rouge:hover{background:#EFC4BE;color:#141311}
+.lux{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;mix-blend-mode:screen;pointer-events:none;display:block}
+.lg{font-family:'League Gothic','Arial Narrow',sans-serif;font-weight:400}
+.sup{position:relative;display:inline-block}
+.sup-logo{position:absolute;left:calc(100% + 0.05em);top:-0.45em;width:0.6em;height:0.6em;display:block}
+.lux-w{position:absolute;inset:0;mix-blend-mode:screen;pointer-events:none}
+.lux-i{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;filter:blur(5px) contrast(1.2) saturate(1.5) brightness(1.35)}
+.rec-label{position:absolute;border-radius:50%;background:#CF5C63;color:#141311}
 </style>
 </helmet>
 <div style="width: 1920px; height: 1280px; position: relative; overflow: hidden; background: #141311; color: #EDE7DC; font-family: 'Libre Franklin', 'Helvetica Neue', Arial, sans-serif;">
@@ -25,55 +30,62 @@ a{color:#EDE7DC;text-decoration:none}a:hover{color:#EFC4BE}
   <div style="position: absolute; left: 64px; top: 64px; width: 1792px; height: 72px; display: flex; justify-content: space-between; align-items: flex-end;">
     <div style="display: flex; flex-direction: column; gap: 6px;">
       <span lang="en" style="font-size: 15px; color: #A9A49B;">Brand direction A · Plate</span>
-      <span lang="en" style="font-family: 'League Gothic', 'Arial Narrow', sans-serif; font-size: 56px; line-height: 1; text-transform: uppercase; color: #EFC4BE;">Applications</span>
+      <span lang="en" class="lg" style="font-size: 56px; line-height: 1; text-transform: uppercase; color: #EFC4BE;">Applications</span>
     </div>
     <span lang="en" style="font-size: 15px; color: #A9A49B;">Poster, website, ticket, Instagram</span>
   </div>
 
-  <div style="position: absolute; left: 64px; top: 168px; width: 560px; height: 792px; overflow: hidden; background: #141311; box-shadow: inset 0 0 0 1px #2E2C28;">
-    <img src="/_blob/2d4c422d114ea15c0bca7c440dd87d94" alt="Kontrabasists, zaļa duotonija" style="position: absolute; left: 0; top: 0; width: 560px; height: 440px; object-fit: cover; object-position: 50% 35%; display: block;">
-    <div class="grain" aria-hidden="true" style="position: absolute; inset: 0; mix-blend-mode: overlay; opacity: 0.3; pointer-events: none;"></div>
-    <div style="position: absolute; left: 0; top: 0; width: 104px; height: 104px; background: #141311; display: flex; align-items: center; justify-content: center;">
-      <img src="/_blob/f66437f1f69bbf40e707182147ce14c6" alt="M/darbnīca logo" style="width: 66px; height: 66px; display: block;">
+  <div style="position: absolute; left: 64px; top: 168px; width: 560px; height: 792px; overflow: hidden; background: #141311;">
+    <div style="position: absolute; left: 0; top: 0; width: 560px; height: 510px; overflow: hidden;">
+      <img src="/_blob/3ebe4bc832402b51476e987870177be1" alt="Bārdains saksofonists profilā cietā, siltā gaismā" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 54% 30%; display: block;">
+      <div aria-hidden="true" style="position: absolute; inset: 0; background: radial-gradient(ellipse 36% 28% at 84% 80%, rgba(20,19,17,0.75) 0%, rgba(20,19,17,0) 100%), linear-gradient(180deg, rgba(20,19,17,0) 50%, rgba(20,19,17,0.8) 76%, #141311 97%);"></div>
+      <div class="lux-w" aria-hidden="true" style="-webkit-mask-image: linear-gradient(180deg, rgba(0,0,0,0) 0%, #000 12%, rgba(0,0,0,0.7) 30%, #000 44%, rgba(0,0,0,0.5) 60%, rgba(0,0,0,0) 74%); mask-image: linear-gradient(180deg, rgba(0,0,0,0) 0%, #000 12%, rgba(0,0,0,0.7) 30%, #000 44%, rgba(0,0,0,0.5) 60%, rgba(0,0,0,0) 74%);">
+        <img class="lux-i" src="/_blob/9f27a7e5a72e69275c62072599a91651" alt="" style="width: 420px; object-fit: fill; -webkit-mask-image: linear-gradient(90deg, #000 0%, #000 12%, rgba(0,0,0,0.45) 20%, rgba(0,0,0,0) 26%); mask-image: linear-gradient(90deg, #000 0%, #000 12%, rgba(0,0,0,0.45) 20%, rgba(0,0,0,0) 26%);">
+        <img class="lux-i" src="/_blob/9f27a7e5a72e69275c62072599a91651" alt="" style="left: 140px; width: 420px; object-fit: fill; -webkit-mask-image: linear-gradient(90deg, rgba(0,0,0,0) 74%, rgba(0,0,0,0.5) 82%, #000 90%); mask-image: linear-gradient(90deg, rgba(0,0,0,0) 74%, rgba(0,0,0,0.5) 82%, #000 90%);">
+      </div>
+      <img class="lux" src="/_blob/d83486b32e17a2db40f4ea24229a0ad0" alt="" aria-hidden="true" style="opacity: 0.75; -webkit-mask-image: radial-gradient(ellipse 22% 34% at 0% 34%, #000 25%, rgba(0,0,0,0) 100%); mask-image: radial-gradient(ellipse 22% 34% at 0% 34%, #000 25%, rgba(0,0,0,0) 100%);">
+      <img class="lux" src="/_blob/d83486b32e17a2db40f4ea24229a0ad0" alt="" aria-hidden="true" style="opacity: 0.8; object-position: 80% 50%; -webkit-mask-image: radial-gradient(ellipse 26% 30% at 100% 12%, #000 25%, rgba(0,0,0,0) 100%); mask-image: radial-gradient(ellipse 26% 30% at 100% 12%, #000 25%, rgba(0,0,0,0) 100%);">
+      <div class="grain" aria-hidden="true" style="position: absolute; inset: 0; mix-blend-mode: overlay; opacity: 0.3; pointer-events: none;"></div>
     </div>
-    <div style="position: absolute; right: 0; top: 0; height: 40px; padding: 0 16px; background: #141311; display: flex; align-items: center;">
-      <span style="font-size: 12px; font-weight: 600; letter-spacing: 0.12em; color: #EFC4BE;">MD–003</span>
+    <div style="position: absolute; left: 0; top: 0; height: 40px; padding: 0 16px; background: #141311; display: flex; align-items: center;">
+      <span lang="en" style="font-size: 12px; font-weight: 600; letter-spacing: 0.12em; color: #EFC4BE;">MD–003 · A1</span>
     </div>
-    <div style="position: absolute; left: 384px; top: 292px; width: 148px; height: 148px; border-radius: 50%; background: #CF5C63;">
-      <div aria-hidden="true" style="position: absolute; inset: 11px; border-radius: 50%; border: 1.5px solid #141311;"></div>
-      <img src="/_blob/0f99658fca07b79b8c2d0cce1171499b" alt="" style="position: absolute; left: 53px; top: 19px; width: 42px; height: 42px; display: block;">
-      <span aria-hidden="true" style="position: absolute; left: 70px; top: 70px; width: 8px; height: 8px; border-radius: 50%; background: #141311;"></span>
-      <span style="position: absolute; left: 0; right: 0; top: 94px; text-align: center; font-size: 9px; font-weight: 700; letter-spacing: 0.14em; color: #141311;">NO 20:00</span>
+    <h2 class="lg" style="position: absolute; left: 24px; top: 470px; margin: 0; font-size: 196px; line-height: 1; color: #EFC4BE; white-space: nowrap;"><span class="sup">DŽEMS<img class="sup-logo" src="/_blob/f66437f1f69bbf40e707182147ce14c6" alt="M/darbnīca"></span></h2>
+    <div class="rec-label" style="left: 422px; top: 528px; width: 112px; height: 112px;">
+      <div aria-hidden="true" style="position: absolute; inset: 6px; border-radius: 50%; border: 1px solid #141311;"></div>
+      <span class="lg" style="position: absolute; left: 0; right: 0; top: 22px; text-align: center; font-size: 21px; line-height: 1;">A PUSE</span>
+      <span aria-hidden="true" style="position: absolute; left: 53px; top: 53px; width: 6px; height: 6px; border-radius: 50%; background: #141311;"></span>
+      <span style="position: absolute; left: 0; right: 0; top: 71px; text-align: center; font-size: 11px; font-weight: 700; line-height: 1.2;">A1 · 20:00</span>
     </div>
-    <div style="position: absolute; left: 26px; top: 448px; font-family: 'League Gothic', 'Arial Narrow', sans-serif; font-size: 216px; line-height: 1; color: #EFC4BE; white-space: nowrap;">DŽEMS</div>
-    <div style="position: absolute; left: 28px; right: 28px; top: 668px; display: flex; flex-direction: column; gap: 10px;">
-      <div style="display: flex; gap: 22px; font-size: 13px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase;">
+    <div style="position: absolute; left: 28px; right: 28px; top: 676px; display: flex; flex-direction: column; gap: 8px;">
+      <div style="display: flex; gap: 20px; font-size: 15px; font-weight: 600;">
         <span style="color: #EFC4BE;">Katru trešdienu</span>
         <span>No 20:00</span>
         <span>Atvērtā skatuve</span>
       </div>
-      <span style="font-size: 14px; line-height: 1.5; color: #CFCAC0; max-width: 440px;">Studentiem, jaunajiem mūziķiem un visiem, kas grib uzspēlēt kopā.</span>
+      <span style="font-size: 14px; line-height: 1.5; color: #CFCAC0; max-width: 460px;">Studentiem, jaunajiem mūziķiem un visiem, kas grib uzspēlēt kopā.</span>
     </div>
-    <div style="position: absolute; left: 28px; right: 28px; bottom: 18px; display: flex; justify-content: space-between; font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; color: #A9A49B;">
+    <div style="position: absolute; left: 28px; right: 28px; bottom: 20px; display: flex; justify-content: space-between; font-size: 13px; color: #A9A49B;">
       <span>Aristīda Briāna 9, Rīga</span>
       <span>mdarbnica.lv</span>
     </div>
+    <div aria-hidden="true" style="position: absolute; inset: 0; box-shadow: inset 0 0 0 1px rgba(237,231,220,0.12); pointer-events: none;"></div>
   </div>
 
-  <div style="position: absolute; left: 64px; top: 992px; width: 560px; height: 200px; background: #EDE7DC; color: #141311; display: grid; grid-template-columns: 420px 140px; overflow: hidden;">
+  <div style="position: absolute; left: 64px; top: 992px; width: 560px; height: 224px; background: #EDE7DC; color: #141311; display: grid; grid-template-columns: 420px 140px; overflow: hidden;">
     <div style="display: grid; grid-template-columns: 64px minmax(0, 1fr);">
-      <div style="background: #CF5C63; display: flex; align-items: center; justify-content: center;">
-        <img src="/_blob/0f99658fca07b79b8c2d0cce1171499b" alt="M/darbnīca logo" style="width: 38px; height: 38px; display: block;">
+      <div style="background: #CF5C63; display: flex; justify-content: center; padding-top: 16px;">
+        <span lang="en" class="lg" style="font-size: 36px; line-height: 1;">B3</span>
       </div>
       <div style="padding: 18px 22px; display: flex; flex-direction: column;">
-        <span style="font-size: 11px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase;">Ieejas biļete · Side B</span>
-        <span style="margin-top: 6px; font-family: 'League Gothic', 'Arial Narrow', sans-serif; font-size: 44px; line-height: 1; text-transform: uppercase;">Sestdienas<br>koncerts</span>
-        <span style="margin-top: auto; font-size: 13px; font-weight: 600;">Sestdiena, 16.01.2027 · 20:00</span>
+        <span style="font-size: 12px; font-weight: 600;">Ieejas biļete · B puse</span>
+        <span class="lg" style="margin-top: 34px; font-size: 44px; line-height: 1; text-transform: uppercase;"><span class="sup">Sestdienas<img class="sup-logo" src="/_blob/0f99658fca07b79b8c2d0cce1171499b" alt="M/darbnīca"></span><br>koncerts</span>
+        <span style="margin-top: auto; font-size: 13px; font-weight: 600;">16.01.2027 · 20:00</span>
         <span style="margin-top: 3px; font-size: 12px; color: #4A4740;">Aristīda Briāna 9, Rīga</span>
       </div>
     </div>
     <div style="border-left: 2px dashed #141311; padding: 18px 16px; display: flex; flex-direction: column; justify-content: space-between; align-items: center;">
-      <span style="font-size: 11px; font-weight: 600; letter-spacing: 0.14em;">MD–016</span>
+      <span lang="en" style="font-size: 11px; font-weight: 600; letter-spacing: 0.14em;">MD–016</span>
       <svg width="60" height="60" viewBox="0 0 64 64" aria-hidden="true">
         <circle cx="32" cy="32" r="31" fill="#141311"></circle>
         <circle cx="32" cy="32" r="24" fill="none" stroke="#2F2E2B" stroke-width="1"></circle>
@@ -81,15 +93,15 @@ a{color:#EDE7DC;text-decoration:none}a:hover{color:#EFC4BE}
         <circle cx="32" cy="32" r="10" fill="#CF5C63"></circle>
         <circle cx="32" cy="32" r="1.8" fill="#EDE7DC"></circle>
       </svg>
-      <span style="font-family: 'League Gothic', 'Arial Narrow', sans-serif; font-size: 26px; line-height: 1;">Nº 000231</span>
+      <span class="lg" style="font-size: 26px; line-height: 1;">Nº 000231</span>
     </div>
-    <div aria-hidden="true" style="position: absolute; left: -14px; top: 86px; width: 28px; height: 28px; border-radius: 50%; background: #141311;"></div>
-    <div aria-hidden="true" style="position: absolute; right: -14px; top: 86px; width: 28px; height: 28px; border-radius: 50%; background: #141311;"></div>
+    <div aria-hidden="true" style="position: absolute; left: -14px; top: 98px; width: 28px; height: 28px; border-radius: 50%; background: #141311;"></div>
+    <div aria-hidden="true" style="position: absolute; right: -14px; top: 98px; width: 28px; height: 28px; border-radius: 50%; background: #141311;"></div>
     <div aria-hidden="true" style="position: absolute; left: 410px; top: -10px; width: 20px; height: 20px; border-radius: 50%; background: #141311;"></div>
     <div aria-hidden="true" style="position: absolute; left: 410px; bottom: -10px; width: 20px; height: 20px; border-radius: 50%; background: #141311;"></div>
   </div>
 
-  <div style="position: absolute; left: 656px; top: 168px; width: 1200px; height: 688px; border-radius: 10px; overflow: hidden; background: #2A2926; display: flex; flex-direction: column;">
+  <div style="position: absolute; left: 656px; top: 168px; width: 1200px; height: 708px; border-radius: 10px; overflow: hidden; background: #2A2926; display: flex; flex-direction: column;">
     <div aria-hidden="true" style="height: 40px; flex-shrink: 0; display: flex; align-items: center; gap: 8px; padding: 0 16px; position: relative;">
       <span style="width: 12px; height: 12px; border-radius: 50%; background: #4A4740;"></span>
       <span style="width: 12px; height: 12px; border-radius: 50%; background: #4A4740;"></span>
@@ -99,7 +111,7 @@ a{color:#EDE7DC;text-decoration:none}a:hover{color:#EFC4BE}
     <div style="flex-grow: 1; background: #141311; position: relative; overflow: hidden;">
       <nav aria-label="Galvenā navigācija" style="height: 76px; padding: 0 40px; display: flex; align-items: center; justify-content: space-between;">
         <a href="#" aria-label="M/darbnīca sākums" style="display: flex; align-items: center;"><img src="/_blob/f66437f1f69bbf40e707182147ce14c6" alt="M/darbnīca logo" style="width: 44px; height: 44px; display: block;"></a>
-        <div style="display: flex; align-items: center; gap: 28px; font-size: 13px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase;">
+        <div style="display: flex; align-items: center; gap: 30px; font-size: 15px; font-weight: 600;">
           <a href="#">Programma</a>
           <a href="#">Kino</a>
           <a href="#">Galerija</a>
@@ -108,79 +120,91 @@ a{color:#EDE7DC;text-decoration:none}a:hover{color:#EFC4BE}
           <a href="#" class="btn-rouge" style="height: 44px; padding: 0 22px; display: flex; align-items: center;">Biļetes</a>
         </div>
       </nav>
-      <div style="padding: 0 40px; height: 396px; display: grid; grid-template-columns: minmax(0, 1fr) 460px; gap: 40px; align-items: center;">
+      <div style="padding: 0 40px; height: 416px; display: grid; grid-template-columns: minmax(0, 1fr) 700px; gap: 40px; align-items: center;">
         <div style="display: flex; flex-direction: column;">
-          <h1 style="margin: 0; font-family: 'League Gothic', 'Arial Narrow', sans-serif; font-weight: 400; font-size: 98px; line-height: 1; text-transform: uppercase; color: #EDE7DC;">Vakars<br>sākas<br>šeit.</h1>
+          <h1 class="lg" style="margin: 0; font-size: 106px; line-height: 1; text-transform: uppercase; color: #EDE7DC;">Vakars<br>sākas<br>šeit.</h1>
           <p style="margin: 18px 0 0 0; font-size: 16px; line-height: 1.5; color: #CFCAC0;">Mūzika, kino un māksla vienā mājā Rīgas centrā.</p>
-          <a href="#" style="margin-top: 12px; font-size: 14px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: #EFC4BE;">Skatīt programmu →</a>
+          <a href="#" style="margin-top: 12px; font-size: 15px; font-weight: 600; color: #EFC4BE;">Skatīt programmu →</a>
         </div>
-        <div class="rv" style="position: relative; width: 460px; height: 340px; overflow: hidden; background: #2A211F;">
-          <img src="/_blob/9be4f2e3bc3d7f364e1caa03487b319d" alt="Dziedātāja pie mikrofona, sārta duotonija" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 50% 24%; display: block;">
-          <img class="rv-col" src="/_blob/011a1c398b3fd0233cf9f83e16682c32" alt="" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 50% 24%; display: block;">
+        <div style="position: relative; width: 700px; height: 396px; overflow: hidden; background: #2A211F;">
+          <img src="/_blob/38dd75a8ccc7cc179f15badf14c29786" alt="Jauns ģitārists uz skatuves, aiz viņa sarkanā neona M/darbnīca zīme, krāsaina zibspuldzes fotogrāfija" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 50% 30%; display: block;">
+          <div aria-hidden="true" style="position: absolute; inset: 0; background: radial-gradient(ellipse 70% 80% at 46% 50%, rgba(20,19,17,0) 50%, rgba(20,19,17,0.6) 100%);"></div>
+          <div class="lux-w" aria-hidden="true" style="-webkit-mask-image: linear-gradient(180deg, rgba(0,0,0,0) 0%, #000 14%, rgba(0,0,0,0.75) 40%, #000 60%, rgba(0,0,0,0) 94%); mask-image: linear-gradient(180deg, rgba(0,0,0,0) 0%, #000 14%, rgba(0,0,0,0.75) 40%, #000 60%, rgba(0,0,0,0) 94%);">
+            <img class="lux-i" src="/_blob/9f27a7e5a72e69275c62072599a91651" alt="" style="width: 520px; object-fit: fill; -webkit-mask-image: linear-gradient(90deg, #000 0%, #000 12%, rgba(0,0,0,0.45) 21%, rgba(0,0,0,0) 28%); mask-image: linear-gradient(90deg, #000 0%, #000 12%, rgba(0,0,0,0.45) 21%, rgba(0,0,0,0) 28%);">
+            <img class="lux-i" src="/_blob/9f27a7e5a72e69275c62072599a91651" alt="" style="left: 180px; width: 520px; object-fit: fill; -webkit-mask-image: linear-gradient(90deg, rgba(0,0,0,0) 76%, rgba(0,0,0,0.5) 84%, #000 92%); mask-image: linear-gradient(90deg, rgba(0,0,0,0) 76%, rgba(0,0,0,0.5) 84%, #000 92%);">
+          </div>
+          <img class="lux" src="/_blob/d83486b32e17a2db40f4ea24229a0ad0" alt="" aria-hidden="true" style="opacity: 0.9; -webkit-mask-image: radial-gradient(ellipse 30% 60% at 4% 60%, #000 25%, rgba(0,0,0,0) 100%); mask-image: radial-gradient(ellipse 30% 60% at 4% 60%, #000 25%, rgba(0,0,0,0) 100%);">
           <div class="grain" aria-hidden="true" style="position: absolute; inset: 0; mix-blend-mode: overlay; opacity: 0.25; pointer-events: none;"></div>
-          <span style="position: absolute; right: 0; bottom: 0; padding: 8px 12px; background: #141311; font-size: 11px; font-weight: 600; letter-spacing: 0.12em; color: #EFC4BE;">MD–001</span>
+          <span lang="en" style="position: absolute; right: 0; bottom: 0; padding: 8px 12px; background: #141311; font-size: 11px; font-weight: 600; letter-spacing: 0.12em; color: #EFC4BE;">MD–001</span>
         </div>
       </div>
       <div style="margin: 0 40px; padding-top: 16px; display: flex; flex-direction: column; gap: 14px; border-top: 2px solid #2A2926;">
         <div style="display: flex; justify-content: space-between; align-items: baseline;">
-          <h2 style="margin: 0; font-family: 'League Gothic', 'Arial Narrow', sans-serif; font-weight: 400; font-size: 28px; line-height: 1.1; text-transform: uppercase;">Šonedēļ</h2>
-          <a href="#" style="font-size: 13px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: #EFC4BE;">Visa programma →</a>
+          <h2 class="lg" style="margin: 0; font-size: 30px; line-height: 1.1; text-transform: uppercase;">Šonedēļ</h2>
+          <a href="#" style="font-size: 14px; font-weight: 600; color: #EFC4BE;">Visa programma →</a>
         </div>
-        <div style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 24px;">
+        <div style="display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 24px;">
           <a href="#" style="display: flex; flex-direction: column; gap: 4px;">
-            <span style="font-size: 12px; font-weight: 700; color: #CF5C63;">A1 <span style="color: #A9A49B; font-weight: 500;">· T 13.01 · 20:00</span></span>
-            <span style="font-family: 'League Gothic', 'Arial Narrow', sans-serif; font-size: 30px; line-height: 1.05; text-transform: uppercase;">Džems</span>
+            <span style="font-size: 13px; font-weight: 700; color: #CF5C63;">A1 <span style="color: #A9A49B; font-weight: 500;">· T 13.01 · 20:00</span></span>
+            <span class="lg" style="font-size: 30px; line-height: 1.05; text-transform: uppercase;">Džems</span>
             <span style="font-size: 13px; color: #CFCAC0;">Atvērtā skatuve</span>
           </a>
           <a href="#" style="display: flex; flex-direction: column; gap: 4px;">
-            <span style="font-size: 12px; font-weight: 700; color: #CF5C63;">A2 <span style="color: #A9A49B; font-weight: 500;">· C 14.01 · 19:30</span></span>
-            <span style="font-family: 'League Gothic', 'Arial Narrow', sans-serif; font-size: 30px; line-height: 1.05; text-transform: uppercase;">Kino vakars</span>
-            <span style="font-size: 13px; color: #CFCAC0;">LKA studentu īsfilmas</span>
+            <span style="font-size: 13px; font-weight: 700; color: #CF5C63;">A2 <span style="color: #A9A49B; font-weight: 500;">· C 14.01 · 19:30</span></span>
+            <span class="lg" style="font-size: 30px; line-height: 1.05; text-transform: uppercase;">Kino vakars</span>
+            <span style="font-size: 13px; color: #CFCAC0;">Latviešu īsfilmas</span>
           </a>
           <a href="#" style="display: flex; flex-direction: column; gap: 4px;">
-            <span style="font-size: 12px; font-weight: 700; color: #CF5C63;">B1 <span style="color: #A9A49B; font-weight: 500;">· Pk 15.01 · 22:00</span></span>
-            <span style="font-family: 'League Gothic', 'Arial Narrow', sans-serif; font-size: 30px; line-height: 1.05; text-transform: uppercase;">Vinila vakars</span>
-            <span style="font-size: 13px; color: #CFCAC0;">DJ līdz rītam</span>
+            <span style="font-size: 13px; font-weight: 700; color: #CF5C63;">B1 <span style="color: #A9A49B; font-weight: 500;">· Pk 15.01 · 22:00</span></span>
+            <span class="lg" style="font-size: 30px; line-height: 1.05; text-transform: uppercase;">DJ vakars</span>
+            <span style="font-size: 13px; color: #CFCAC0;">Vinils līdz rītam</span>
           </a>
           <a href="#" style="display: flex; flex-direction: column; gap: 4px;">
-            <span style="font-size: 12px; font-weight: 700; color: #CF5C63;">B2 <span style="color: #A9A49B; font-weight: 500;">· S 16.01 · 20:00</span></span>
-            <span style="font-family: 'League Gothic', 'Arial Narrow', sans-serif; font-size: 30px; line-height: 1.05; text-transform: uppercase;">Sestdienas koncerts</span>
-            <span style="font-size: 13px; color: #CFCAC0;">Lielā zāle, 2. stāvs</span>
+            <span style="font-size: 13px; font-weight: 700; color: #CF5C63;">B2 <span style="color: #A9A49B; font-weight: 500;">· S 16.01 · 12:00</span></span>
+            <span class="lg" style="font-size: 30px; line-height: 1.05; text-transform: uppercase;">Vintage tirdziņš</span>
+            <span style="font-size: 13px; color: #CFCAC0;">Apģērbi, plates, grāmatas</span>
+          </a>
+          <a href="#" style="display: flex; flex-direction: column; gap: 4px;">
+            <span style="font-size: 13px; font-weight: 700; color: #CF5C63;">B3 <span style="color: #A9A49B; font-weight: 500;">· S 16.01 · 20:00</span></span>
+            <span class="lg" style="font-size: 30px; line-height: 1.05; text-transform: uppercase;">Koncerts</span>
+            <span style="font-size: 13px; color: #CFCAC0;">Dzīvā mūzika</span>
           </a>
         </div>
       </div>
     </div>
   </div>
 
-  <span lang="en" style="position: absolute; left: 656px; top: 886px; font-size: 15px; font-weight: 600; color: #EDE7DC;">Instagram</span>
-  <div style="position: absolute; left: 656px; top: 920px; width: 1200px; height: 276px; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 32px;">
-    <div style="background: #EDE7DC; color: #141311; box-sizing: border-box; padding: 18px 20px; display: flex; flex-direction: column;">
-      <div style="display: flex; justify-content: space-between; align-items: flex-start;">
-        <span style="font-family: 'League Gothic', 'Arial Narrow', sans-serif; font-size: 50px; line-height: 1; text-transform: uppercase;">Šonedēļ</span>
-        <span style="font-size: 11px; font-weight: 600; letter-spacing: 0.1em; padding-top: 6px;">13–16.01</span>
+  <span lang="en" style="position: absolute; left: 656px; top: 906px; font-size: 15px; font-weight: 600; color: #EDE7DC;">Instagram</span>
+  <div style="position: absolute; left: 656px; top: 940px; width: 1200px; height: 276px; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 32px;">
+    <div style="position: relative; background: #EDE7DC; color: #141311; box-sizing: border-box; padding: 18px 20px;">
+      <span style="position: absolute; right: 20px; top: 22px; font-size: 12px; font-weight: 600;">13.–16.01</span>
+      <div class="lg" style="position: absolute; left: 20px; top: 40px; font-size: 46px; line-height: 1; text-transform: uppercase; white-space: nowrap;"><span class="sup">Šonedēļ<img class="sup-logo" src="/_blob/0f99658fca07b79b8c2d0cce1171499b" alt="M/darbnīca"></span></div>
+      <div style="position: absolute; left: 20px; right: 20px; top: 98px; display: flex; flex-direction: column;">
+        <div style="display: grid; grid-template-columns: 26px minmax(0, 1fr) auto; align-items: baseline; padding: 4px 0 3px; border-top: 2px solid #141311;"><span style="font-size: 11px; font-weight: 700;">A1</span><span class="lg" style="font-size: 22px; line-height: 1.05;">DŽEMS</span><span style="font-size: 11px; font-weight: 600;">T 20:00</span></div>
+        <div style="display: grid; grid-template-columns: 26px minmax(0, 1fr) auto; align-items: baseline; padding: 4px 0 3px; border-top: 1px solid #CFC8BB;"><span style="font-size: 11px; font-weight: 700;">A2</span><span class="lg" style="font-size: 22px; line-height: 1.05;">KINO VAKARS</span><span style="font-size: 11px; font-weight: 600;">C 19:30</span></div>
+        <div style="display: grid; grid-template-columns: 26px minmax(0, 1fr) auto; align-items: baseline; padding: 4px 0 3px; border-top: 1px solid #CFC8BB;"><span style="font-size: 11px; font-weight: 700;">B1</span><span class="lg" style="font-size: 22px; line-height: 1.05;">DJ VAKARS</span><span style="font-size: 11px; font-weight: 600;">Pk 22:00</span></div>
+        <div style="display: grid; grid-template-columns: 26px minmax(0, 1fr) auto; align-items: baseline; padding: 4px 0 3px; border-top: 1px solid #CFC8BB;"><span style="font-size: 11px; font-weight: 700;">B2</span><span class="lg" style="font-size: 22px; line-height: 1.05;">VINTAGE TIRDZIŅŠ</span><span style="font-size: 11px; font-weight: 600;">S 12:00</span></div>
+        <div style="display: grid; grid-template-columns: 26px minmax(0, 1fr) auto; align-items: baseline; padding: 4px 0 3px; border-top: 1px solid #CFC8BB;"><span style="font-size: 11px; font-weight: 700;">B3</span><span class="lg" style="font-size: 22px; line-height: 1.05;">KONCERTS</span><span style="font-size: 11px; font-weight: 600;">S 20:00</span></div>
       </div>
-      <div style="margin-top: 10px; display: flex; flex-direction: column;">
-        <div style="display: grid; grid-template-columns: 28px minmax(0, 1fr); align-items: baseline; padding: 5px 0; border-top: 2px solid #141311;"><span style="font-size: 11px; font-weight: 700;">A1</span><span style="font-family: 'League Gothic', 'Arial Narrow', sans-serif; font-size: 24px; line-height: 1.05;">DŽEMS <span style="font-family: 'Libre Franklin', Arial, sans-serif; font-size: 11px; font-weight: 600;">T 20:00</span></span></div>
-        <div style="display: grid; grid-template-columns: 28px minmax(0, 1fr); align-items: baseline; padding: 5px 0; border-top: 1px solid #CFC8BB;"><span style="font-size: 11px; font-weight: 700;">A2</span><span style="font-family: 'League Gothic', 'Arial Narrow', sans-serif; font-size: 24px; line-height: 1.05;">KINO VAKARS <span style="font-family: 'Libre Franklin', Arial, sans-serif; font-size: 11px; font-weight: 600;">C 19:30</span></span></div>
-        <div style="display: grid; grid-template-columns: 28px minmax(0, 1fr); align-items: baseline; padding: 5px 0; border-top: 1px solid #CFC8BB;"><span style="font-size: 11px; font-weight: 700;">B1</span><span style="font-family: 'League Gothic', 'Arial Narrow', sans-serif; font-size: 24px; line-height: 1.05;">VINILA VAKARS <span style="font-family: 'Libre Franklin', Arial, sans-serif; font-size: 11px; font-weight: 600;">PK 22:00</span></span></div>
-        <div style="display: grid; grid-template-columns: 28px minmax(0, 1fr); align-items: baseline; padding: 5px 0; border-top: 1px solid #CFC8BB;"><span style="font-size: 11px; font-weight: 700;">B2</span><span style="font-family: 'League Gothic', 'Arial Narrow', sans-serif; font-size: 24px; line-height: 1.05;">KONCERTS <span style="font-family: 'Libre Franklin', Arial, sans-serif; font-size: 11px; font-weight: 600;">S 20:00</span></span></div>
-      </div>
-      <img src="/_blob/0f99658fca07b79b8c2d0cce1171499b" alt="M/darbnīca logo" style="margin-top: auto; width: 26px; height: 26px; display: block;">
     </div>
 
     <div style="position: relative; overflow: hidden; background: #141311;">
-      <img src="/_blob/67f05d4ced75efd4fc282cf07e04c3de" alt="Plašu atskaņotājs, sarkanās etiķetes krāsā" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 55% 50%; display: block;">
-      <div class="grain" aria-hidden="true" style="position: absolute; inset: 0; mix-blend-mode: overlay; opacity: 0.3; pointer-events: none;"></div>
-      <div style="position: absolute; left: 0; right: 0; bottom: 0; padding: 12px 16px; background: #141311; display: flex; justify-content: space-between; align-items: center;">
-        <span style="font-family: 'League Gothic', 'Arial Narrow', sans-serif; font-size: 36px; line-height: 1.05; color: #EFC4BE;">VINILA VAKARS</span>
-        <span style="font-size: 11px; font-weight: 700; letter-spacing: 0.1em; color: #CF5C63;">PK 15.01</span>
+      <img src="/_blob/8db9f6f4b8b2166de0ca82fa642fadde" alt="Divas dejojošas sievietes ar paceltām rokām, filmas zibspuldze" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 50% 100%; display: block;">
+      <div aria-hidden="true" style="position: absolute; inset: 0; background: linear-gradient(180deg, rgba(20,19,17,0) 58%, rgba(20,19,17,0.85) 92%), linear-gradient(180deg, rgba(20,19,17,0.55) 0%, rgba(20,19,17,0) 20%);"></div>
+      <div class="lux-w" aria-hidden="true" style="-webkit-mask-image: linear-gradient(180deg, rgba(0,0,0,0) 10%, #000 24%, #000 46%, rgba(0,0,0,0) 72%); mask-image: linear-gradient(180deg, rgba(0,0,0,0) 10%, #000 24%, #000 46%, rgba(0,0,0,0) 72%);">
+        <img class="lux-i" src="/_blob/9f27a7e5a72e69275c62072599a91651" alt="" style="width: 200px; object-fit: fill; -webkit-mask-image: linear-gradient(90deg, #000 0%, #000 9%, rgba(0,0,0,0.4) 15%, rgba(0,0,0,0) 20%); mask-image: linear-gradient(90deg, #000 0%, #000 9%, rgba(0,0,0,0.4) 15%, rgba(0,0,0,0) 20%);">
+        <img class="lux-i" src="/_blob/9f27a7e5a72e69275c62072599a91651" alt="" style="left: 84px; width: 200px; object-fit: fill; -webkit-mask-image: linear-gradient(90deg, rgba(0,0,0,0) 80%, rgba(0,0,0,0.5) 86%, #000 92%); mask-image: linear-gradient(90deg, rgba(0,0,0,0) 80%, rgba(0,0,0,0.5) 86%, #000 92%);">
       </div>
+      <img class="lux" src="/_blob/d83486b32e17a2db40f4ea24229a0ad0" alt="" aria-hidden="true" style="opacity: 0.85; object-position: 70% 30%; -webkit-mask-image: radial-gradient(ellipse 42% 40% at 100% 8%, #000 20%, rgba(0,0,0,0) 100%); mask-image: radial-gradient(ellipse 42% 40% at 100% 8%, #000 20%, rgba(0,0,0,0) 100%);">
+      <div class="grain" aria-hidden="true" style="position: absolute; inset: 0; mix-blend-mode: overlay; opacity: 0.3; pointer-events: none;"></div>
+      <span style="position: absolute; left: 18px; top: 16px; font-size: 13px; font-weight: 600; color: #EDE7DC;">Piektdiena 15.01 · 22:00</span>
+      <div class="lg" style="position: absolute; left: 18px; top: 216px; font-size: 42px; line-height: 1; color: #EFC4BE; text-transform: uppercase; white-space: nowrap;"><span class="sup">DJ vakars<img class="sup-logo" src="/_blob/f66437f1f69bbf40e707182147ce14c6" alt="M/darbnīca"></span></div>
     </div>
 
-    <div style="position: relative; overflow: hidden; background: #CF5C63; color: #141311; box-sizing: border-box; padding: 20px;">
-      <span style="font-size: 11px; font-weight: 700; letter-spacing: 0.12em;">2. STĀVS · RĪGA</span>
-      <div style="margin-top: 14px; font-family: 'League Gothic', 'Arial Narrow', sans-serif; font-size: 50px; line-height: 1.05; text-transform: uppercase;">Atgriežamies<br>janvārī</div>
-      <span style="display: block; margin-top: 10px; font-size: 13px; font-weight: 600; max-width: 130px; line-height: 1.4;">Jauna programma, tā pati māja.</span>
+    <div style="position: relative; overflow: hidden; background: #CF5C63; color: #141311; box-sizing: border-box;">
+      <span style="position: absolute; left: 20px; top: 20px; font-size: 12px; font-weight: 600;">Aristīda Briāna 9 · Rīga</span>
+      <div class="lg" style="position: absolute; left: 20px; top: 66px; font-size: 50px; line-height: 1.1; text-transform: uppercase; white-space: nowrap;"><span class="sup">Atgriežamies<img class="sup-logo" src="/_blob/0f99658fca07b79b8c2d0cce1171499b" alt="M/darbnīca"></span><br>janvārī</div>
+      <span style="position: absolute; left: 20px; top: 186px; font-size: 13px; font-weight: 600; width: 120px; line-height: 1.4;">Jauna programma, tā pati māja.</span>
       <div style="position: absolute; right: -50px; bottom: -50px; width: 176px; height: 176px;">
         <svg width="176" height="176" viewBox="0 0 160 160" aria-hidden="true" style="position: absolute; inset: 0;">
           <circle cx="80" cy="80" r="79" fill="#141311"></circle>
@@ -190,18 +214,18 @@ a{color:#EDE7DC;text-decoration:none}a:hover{color:#EFC4BE}
           <circle cx="80" cy="80" r="28" fill="#EFC4BE"></circle>
           <circle cx="80" cy="80" r="2.8" fill="#CF5C63"></circle>
         </svg>
-        <img src="/_blob/0f99658fca07b79b8c2d0cce1171499b" alt="" style="position: absolute; left: 77px; top: 66px; width: 22px; height: 22px;">
       </div>
     </div>
 
     <div style="position: relative; overflow: hidden; background: #141311;">
-      <img src="/_blob/9a12739cff48f4679a3cb6657063b674" alt="Trompetists tumsā, melnbalts" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 50% 35%; display: block;">
+      <img src="/_blob/dad971763c71ead49e975a7f08affc85" alt="Dziedātājs dzintara krāsas brillēs ar mikrofonu pie lūpām, krāsaina zibspuldzes fotogrāfija" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 44% 40%; display: block;">
       <div class="grain" aria-hidden="true" style="position: absolute; inset: 0; mix-blend-mode: overlay; opacity: 0.3; pointer-events: none;"></div>
-      <div style="position: absolute; left: 16px; bottom: 16px; width: 112px; height: 112px; border-radius: 50%; background: #CF5C63; color: #141311;">
-        <div aria-hidden="true" style="position: absolute; inset: 8px; border-radius: 50%; border: 1px solid #141311;"></div>
-        <img src="/_blob/0f99658fca07b79b8c2d0cce1171499b" alt="" style="position: absolute; left: 41px; top: 14px; width: 30px; height: 30px;">
-        <span aria-hidden="true" style="position: absolute; left: 53px; top: 53px; width: 6px; height: 6px; border-radius: 50%; background: #141311;"></span>
-        <span style="position: absolute; left: 0; right: 0; top: 68px; text-align: center; font-size: 9px; font-weight: 700; letter-spacing: 0.12em; line-height: 1.4;">S 16.01<br>KONCERTS</span>
+      <img src="/_blob/2877915fa21564ed0bc026575b34f017" alt="M/darbnīca" style="position: absolute; right: 12px; top: 12px; width: 20px; height: 20px; display: block;">
+      <div style="position: absolute; right: 12px; bottom: 12px; width: 98px; height: 98px; border-radius: 50%; background: #CF5C63; color: #141311;">
+        <div aria-hidden="true" style="position: absolute; inset: 6px; border-radius: 50%; border: 1px solid #141311;"></div>
+        <span aria-hidden="true" style="position: absolute; left: 46px; top: 46px; width: 6px; height: 6px; border-radius: 50%; background: #141311;"></span>
+        <span class="lg" style="position: absolute; left: 0; right: 0; top: 20px; text-align: center; font-size: 20px; line-height: 1;">KONCERTS</span>
+        <span style="position: absolute; left: 0; right: 0; top: 60px; text-align: center; font-size: 11px; font-weight: 700; line-height: 1.3;">S 16.01<br>20:00</span>
       </div>
     </div>
   </div>
