@@ -1,18 +1,172 @@
 {
   "v": 3,
-  "createdOnFiles": {"v": 1, "at": "2026-10-23T10:45:00Z"},
-  "title": "M/darbnīca Brand Boards",
-  "launch": {"view": "canvas"},
-  "pages": [],
+  "attachments": {},
   "boards": {
-    "Main.dc.html": {"x": 0, "y": 0, "w": 1920, "h": 1200, "title": "Cover"},
-    "Reveal.dc.html": {"x": 2000, "y": 0, "w": 1920, "h": 1200, "title": "Colour reveal (interactive)", "is_interactive": true},
-    "Plate-Board.dc.html": {"x": 0, "y": 1600, "w": 1920, "h": 1280, "title": "A · Plate — brand board"},
-    "Plate-Apps.dc.html": {"x": 2000, "y": 1600, "w": 1920, "h": 1280, "title": "A · Plate — applications"},
-    "Kino-Board.dc.html": {"x": 0, "y": 3280, "w": 1920, "h": 1280, "title": "B · Kino — brand board"},
-    "Kino-Apps.dc.html": {"x": 2000, "y": 3280, "w": 1920, "h": 1280, "title": "B · Kino — applications"},
-    "Partitura-Board.dc.html": {"x": 0, "y": 4960, "w": 1920, "h": 1280, "title": "C · Partitūra — brand board"},
-    "Partitura-Apps.dc.html": {"x": 2000, "y": 4960, "w": 1920, "h": 1280, "title": "C · Partitūra — applications"}
+    "Kino-Apps.dc.html": {
+      "h": 1280,
+      "title": "B · Kino — applications",
+      "w": 1920,
+      "x": 2000,
+      "y": 3280
+    },
+    "Kino-Board.dc.html": {
+      "h": 1280,
+      "title": "B · Kino — brand board",
+      "w": 1920,
+      "x": 0,
+      "y": 3280
+    },
+    "Main.dc.html": {
+      "h": 1200,
+      "title": "Cover",
+      "w": 1920,
+      "x": 0,
+      "y": 0
+    },
+    "Partitura-Apps.dc.html": {
+      "h": 1280,
+      "title": "C · Partitūra — applications",
+      "w": 1920,
+      "x": 2000,
+      "y": 4960
+    },
+    "Partitura-Board.dc.html": {
+      "h": 1280,
+      "title": "C · Partitūra — brand board",
+      "w": 1920,
+      "x": 0,
+      "y": 4960
+    },
+    "Plate-Apps.dc.html": {
+      "h": 1280,
+      "title": "A · Plate — applications",
+      "w": 1920,
+      "x": 2000,
+      "y": 1600
+    },
+    "Plate-Board.dc.html": {
+      "h": 1280,
+      "title": "A · Plate — brand board",
+      "w": 1920,
+      "x": 0,
+      "y": 1600
+    },
+    "Reveal.dc.html": {
+      "h": 1200,
+      "is_interactive": true,
+      "title": "Colour reveal (interactive)",
+      "w": 1920,
+      "x": 2000,
+      "y": 0
+    },
+    "Kadrs-Board.dc.html": {
+      "x": 0,
+      "y": 6640,
+      "w": 1920,
+      "h": 1280,
+      "title": "D · Kadrs — brand board"
+    },
+    "Kadrs-Apps.dc.html": {
+      "x": 2000,
+      "y": 6640,
+      "w": 1920,
+      "h": 1280,
+      "title": "D · Kadrs — applications"
+    },
+    "Vilnis-Board.dc.html": {
+      "x": 0,
+      "y": 8320,
+      "w": 1920,
+      "h": 1280,
+      "title": "E · Jaunais vilnis — brand board"
+    },
+    "Vilnis-Apps.dc.html": {
+      "x": 2000,
+      "y": 8320,
+      "w": 1920,
+      "h": 1280,
+      "title": "E · Jaunais vilnis — applications"
+    },
+    "Kontaktlapa-Board.dc.html": {
+      "x": 0,
+      "y": 10000,
+      "w": 1920,
+      "h": 1280,
+      "title": "F · Kontaktlapa — brand board"
+    },
+    "Kontaktlapa-Apps.dc.html": {
+      "x": 2000,
+      "y": 10000,
+      "w": 1920,
+      "h": 1280,
+      "title": "F · Kontaktlapa — applications"
+    }
+  },
+  "createdOnFiles": {
+    "at": "2026-10-23T10:45:00Z",
+    "v": 1
+  },
+  "designSystems": [],
+  "launch": {
+    "view": "canvas"
+  },
+  "notes": {
+    "t0": {
+      "kind": "title1",
+      "maxW": 3920,
+      "text": "M/darbnīca — six brand directions",
+      "w": 240,
+      "x": 0,
+      "y": -300
+    },
+    "tA": {
+      "kind": "title1",
+      "maxW": 3920,
+      "text": "A · Plate — the record sleeve",
+      "w": 240,
+      "x": 0,
+      "y": 1320
+    },
+    "tB": {
+      "kind": "title1",
+      "maxW": 3920,
+      "text": "B · Kino — the silver screen",
+      "w": 240,
+      "x": 0,
+      "y": 3000
+    },
+    "tC": {
+      "kind": "title1",
+      "maxW": 3920,
+      "text": "C · Partitūra — the score",
+      "w": 240,
+      "x": 0,
+      "y": 4680
+    },
+    "tD": {
+      "kind": "title1",
+      "maxW": 3920,
+      "text": "D · Kadrs — the film still (light)",
+      "w": 240,
+      "x": 0,
+      "y": 6360
+    },
+    "tE": {
+      "kind": "title1",
+      "maxW": 3920,
+      "text": "E · Jaunais vilnis — the New Wave poster (light)",
+      "w": 240,
+      "x": 0,
+      "y": 8040
+    },
+    "tF": {
+      "kind": "title1",
+      "maxW": 3920,
+      "text": "F · Kontaktlapa — the contact sheet (light)",
+      "w": 240,
+      "x": 0,
+      "y": 9720
+    }
   },
   "order": [
     "Main.dc.html",
@@ -22,13 +176,14 @@
     "Kino-Board.dc.html",
     "Kino-Apps.dc.html",
     "Partitura-Board.dc.html",
-    "Partitura-Apps.dc.html"
+    "Partitura-Apps.dc.html",
+    "Kadrs-Board.dc.html",
+    "Kadrs-Apps.dc.html",
+    "Vilnis-Board.dc.html",
+    "Vilnis-Apps.dc.html",
+    "Kontaktlapa-Board.dc.html",
+    "Kontaktlapa-Apps.dc.html"
   ],
-  "notes": {
-    "t0": {"x": 0, "y": -300, "text": "M/darbnīca — three brand directions", "kind": "title1", "maxW": 3920},
-    "tA": {"x": 0, "y": 1320, "text": "A · Plate — the record sleeve", "kind": "title1", "maxW": 3920},
-    "tB": {"x": 0, "y": 3000, "text": "B · Kino — the silver screen", "kind": "title1", "maxW": 3920},
-    "tC": {"x": 0, "y": 4680, "text": "C · Partitūra — the score", "kind": "title1", "maxW": 3920}
-  },
-  "designSystems": []
+  "pages": [],
+  "title": "M/darbnīca Brand Boards"
 }

@@ -21,3 +21,28 @@
 375 https://static.wixstatic.com/media/75c9ca_961eeac46d61474ba2869e5769f8ecd5~mv2.jpg
 384 https://static.wixstatic.com/media/75c9ca_86b085f50413481d83d015bda3ea0953~mv2.jpg
 389 https://static.wixstatic.com/media/75c9ca_337388d5743447e69ab9e4954fafa728~mv2.jpg
+
+# Light-mode set (scripts/process_light.py), same gallery
+142 https://static.wixstatic.com/media/46eec9_a7a1e5cc34804fda81587c9d85235ee7~mv2.jpeg
+144 https://static.wixstatic.com/media/46eec9_ef2c87c1efdf4ca7a2b0d705f71b546d~mv2.jpeg
+145 https://static.wixstatic.com/media/46eec9_e01ac5b7ae3a41189ee9a03c13c68e06~mv2.jpeg
+161 https://static.wixstatic.com/media/46eec9_d6ccad49f2f64b6b9a4b04d86b07ba66~mv2.jpg
+166 https://static.wixstatic.com/media/46eec9_8bff544d7f0148f5b1327eb7bae1bc70~mv2.jpg
+167 https://static.wixstatic.com/media/46eec9_ea89d772d8434175a62f0dae7746d494~mv2.jpg
+187 https://static.wixstatic.com/media/46eec9_053c1beba17744b6866a5e6c05c12243~mv2.jpg
+188 https://static.wixstatic.com/media/46eec9_09a7f192cc204f2a8708f7f11d9b3595~mv2.jpg
+240 https://static.wixstatic.com/media/46eec9_f76743aea61b4460bbfa43ef331701d4~mv2.jpg
+295 https://static.wixstatic.com/media/46eec9_cd6bea95ca3649869e7c84260045d6c5~mv2.jpg
+301 https://static.wixstatic.com/media/46eec9_4fd94197169e48699dc2288c80a71e0f~mv2.jpg
+303 https://static.wixstatic.com/media/46eec9_5bac280aeeed4fde87d2021901db8871~mv2.jpg
+308 https://static.wixstatic.com/media/46eec9_41e247d3264546db9a83a14229a0590a~mv2.jpg
+313 https://static.wixstatic.com/media/46eec9_656dcf7d312748a9ac290ed2097c8055~mv2.jpg
+314 https://static.wixstatic.com/media/46eec9_bf07afb05b2c4525a9ce6759f33370d5~mv2.jpg
+321 https://static.wixstatic.com/media/46eec9_f31a91be19f647609e5beb801543e063~mv2.jpg
+323 https://static.wixstatic.com/media/46eec9_c0199f5dd6334b74a5bb5c2921aabd81~mv2.jpg
+325 https://static.wixstatic.com/media/46eec9_0638b8c043e24dfe816f9061bc815633~mv2.jpg
+329 https://static.wixstatic.com/media/46eec9_c8b474d22a5e416bad3f5dca8bfbdb76~mv2.jpeg
+333 https://static.wixstatic.com/media/46eec9_ac0836e1f5e74f49a0f90f12375654a6~mv2.jpeg
+336 https://static.wixstatic.com/media/46eec9_14fe7e94ed4d493b98bd6b2601b97437~mv2.jpg
+346 https://static.wixstatic.com/media/46eec9_7c4282f8edc8452ea4c1d7601dcb2554~mv2.jpeg
+347 https://static.wixstatic.com/media/46eec9_db16a87d7a5c473fa3a2d7cbb727b21c~mv2.jpeg
