@@ -1,140 +1,147 @@
 {
-  "v": 3,
-  "attachments": {},
-  "boards": {
-    "Kadrs-Apps.dc.html": {
-      "h": 1280,
-      "title": "D · Kadrs — applications",
-      "w": 1920,
-      "x": 2000,
-      "y": 3360
-    },
-    "Kadrs-Board.dc.html": {
-      "h": 1280,
-      "title": "D · Kadrs — brand board",
-      "w": 1920,
-      "x": 0,
-      "y": 3360
-    },
-    "Plate-Apps.dc.html": {
-      "h": 1280,
-      "title": "A · Plate — applications",
-      "w": 1920,
-      "x": 2000,
-      "y": 0
-    },
-    "Plate-Board.dc.html": {
-      "h": 1280,
-      "title": "A · Plate — brand board",
-      "w": 1920,
-      "x": 0,
-      "y": 0
-    },
-    "Vilnis-Apps.dc.html": {
-      "h": 1280,
-      "title": "E · Jaunais vilnis — applications",
-      "w": 1920,
-      "x": 2000,
-      "y": 5040
-    },
-    "Vilnis-Board.dc.html": {
-      "h": 1280,
-      "title": "E · Jaunais vilnis — brand board",
-      "w": 1920,
-      "x": 0,
-      "y": 5040
-    },
-    "Jugends-Board.dc.html": {
-      "h": 1280,
-      "title": "C · Jūgends — brand board",
-      "w": 1920,
-      "x": 0,
-      "y": 1680
-    },
-    "Jugends-Apps.dc.html": {
-      "h": 1280,
-      "title": "C · Jūgends — applications",
-      "w": 1920,
-      "x": 2000,
-      "y": 1680
-    },
-    "Zibspuldze-Board.dc.html": {
-      "h": 1280,
-      "title": "F · Zibspuldze — brand board",
-      "w": 1920,
-      "x": 0,
-      "y": 6720
-    },
-    "Zibspuldze-Apps.dc.html": {
-      "h": 1280,
-      "title": "F · Zibspuldze — applications",
-      "w": 1920,
-      "x": 2000,
-      "y": 6720
-    }
+ "v": 3,
+ "attachments": {},
+ "boards": {
+  "Zibspuldze-Board.dc.html": {
+   "h": 1280,
+   "title": "Zibspuldze — zīmols",
+   "w": 1920,
+   "x": 0,
+   "y": -1729
   },
-  "createdOnFiles": {
-    "at": "2026-10-23T10:45:00Z",
-    "v": 1
+  "Zibspuldze-Apps.dc.html": {
+   "h": 1280,
+   "title": "Zibspuldze — pielietojums",
+   "w": 1920,
+   "x": 2000,
+   "y": -1729
   },
-  "designSystems": [],
-  "launch": {
-    "view": "canvas"
+  "Plate-Board.dc.html": {
+   "h": 1280,
+   "title": "Plate — zīmols",
+   "w": 1920,
+   "x": 0,
+   "y": 0
   },
-  "notes": {
-    "tA": {
-      "kind": "title1",
-      "maxW": 3920,
-      "text": "A · Plate — the record sleeve",
-      "w": 240,
-      "x": 0,
-      "y": -280
-    },
-    "tC": {
-      "kind": "title1",
-      "maxW": 3920,
-      "text": "C · Jūgends — Rīga Art Nouveau, new retro",
-      "w": 240,
-      "x": 0,
-      "y": 1400
-    },
-    "tD": {
-      "kind": "title1",
-      "maxW": 3920,
-      "text": "D · Kadrs — the film still",
-      "w": 240,
-      "x": 0,
-      "y": 3080
-    },
-    "tE": {
-      "kind": "title1",
-      "maxW": 3920,
-      "text": "E · Jaunais vilnis — the New Wave poster",
-      "w": 240,
-      "x": 0,
-      "y": 4760
-    },
-    "tF": {
-      "kind": "title1",
-      "maxW": 3920,
-      "text": "F · Zibspuldze — the flash",
-      "w": 240,
-      "x": 0,
-      "y": 6440
-    }
+  "Plate-Apps.dc.html": {
+   "h": 1280,
+   "title": "Plate — pielietojums",
+   "w": 1920,
+   "x": 2000,
+   "y": 0
   },
-  "order": [
-    "Plate-Board.dc.html",
-    "Plate-Apps.dc.html",
-    "Jugends-Board.dc.html",
-    "Jugends-Apps.dc.html",
-    "Kadrs-Board.dc.html",
-    "Kadrs-Apps.dc.html",
-    "Vilnis-Board.dc.html",
-    "Vilnis-Apps.dc.html",
-    "Zibspuldze-Board.dc.html",
-    "Zibspuldze-Apps.dc.html"
-  ],
-  "pages": [],
-  "title": "M/darbnīca Brand Boards"
+  "Muza-Board.dc.html": {
+   "h": 1280,
+   "title": "Mūza — zīmols",
+   "w": 1920,
+   "x": 0,
+   "y": 1680
+  },
+  "Muza-Apps.dc.html": {
+   "h": 1280,
+   "title": "Mūza — pielietojums",
+   "w": 1920,
+   "x": 2000,
+   "y": 1680
+  },
+  "Kadrs-Board.dc.html": {
+   "h": 1280,
+   "title": "Kadrs — zīmols",
+   "w": 1920,
+   "x": 0,
+   "y": 3360
+  },
+  "Kadrs-Apps.dc.html": {
+   "h": 1280,
+   "title": "Kadrs — pielietojums",
+   "w": 1920,
+   "x": 2000,
+   "y": 3360
+  },
+  "Afisa-Board.dc.html": {
+   "h": 1280,
+   "title": "Afiša — zīmols",
+   "w": 1920,
+   "x": 0,
+   "y": 5040
+  },
+  "Afisa-Apps.dc.html": {
+   "h": 1280,
+   "title": "Afiša — pielietojums",
+   "w": 1920,
+   "x": 2000,
+   "y": 5040
+  }
+ },
+ "createdOnFiles": {
+  "at": "2026-10-23T10:45:00Z",
+  "v": 1
+ },
+ "designSystems": [],
+ "launch": {
+  "view": "canvas"
+ },
+ "notes": {
+  "tA": {
+   "kind": "title1",
+   "maxW": 3920,
+   "text": "Plate",
+   "w": 240,
+   "x": 0,
+   "y": -280
+  },
+  "tC": {
+   "kind": "title1",
+   "maxW": 3920,
+   "text": "Mūza",
+   "w": 240,
+   "x": 0,
+   "y": 1400
+  },
+  "tD": {
+   "kind": "title1",
+   "maxW": 3920,
+   "text": "Kadrs",
+   "w": 240,
+   "x": 0,
+   "y": 3080
+  },
+  "tE": {
+   "kind": "title1",
+   "maxW": 3920,
+   "text": "Afiša",
+   "w": 240,
+   "x": 0,
+   "y": 4760
+  },
+  "tF": {
+   "kind": "title1",
+   "maxW": 3920,
+   "text": "Zibspuldze",
+   "w": 240,
+   "x": 0,
+   "y": -2009
+  },
+  "creditsMuza": {
+   "x": 4000,
+   "y": 1680,
+   "w": 460,
+   "fill": "gray",
+   "text": "Fotogrāfiju autori (Mūza)\n\nJūgendstila fasāžu detaļas — Alberta iela 13 (maskarons, spārnotā galva, pāvs) un Elizabetes iela 33 (atlants): Richardmaackphotography, Wikimedia Commons, CC BY 4.0. Apgrieztas un tonētas.\n\nAntīkās skulptūras un freska: The Metropolitan Museum of Art, Open Access (CC0)."
+  }
+ },
+ "order": [
+  "Zibspuldze-Board.dc.html",
+  "Zibspuldze-Apps.dc.html",
+  "Plate-Board.dc.html",
+  "Plate-Apps.dc.html",
+  "Muza-Board.dc.html",
+  "Muza-Apps.dc.html",
+  "Kadrs-Board.dc.html",
+  "Kadrs-Apps.dc.html",
+  "Afisa-Board.dc.html",
+  "Afisa-Apps.dc.html"
+ ],
+ "pages": [],
+ "title": "M/darbnīca Brand Boards"
 }

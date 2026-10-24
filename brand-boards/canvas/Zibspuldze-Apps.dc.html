@@ -1,8 +1,8 @@
 <!doctype html>
-<html lang="en">
+<html lang="lv">
 <head>
 <meta charset="utf-8">
-<title>F · Zibspuldze — applications</title>
+<title>Zibspuldze — pielietojums</title>
 <script src="./support.js"></script>
 </head>
 <body>
@@ -12,155 +12,121 @@
 @font-face{font-family:'Heros';src:url(/_blob/fd7cbc9ad0a9a5f84a27865e979fcc33) format('woff2');font-weight:400;font-style:normal;font-display:swap}
 @font-face{font-family:'Heros';src:url(/_blob/81fc279f7a646ce605856402db3ae8cb) format('woff2');font-weight:700;font-style:normal;font-display:swap}
 @font-face{font-family:'Jost';src:url(/_blob/d70c8819b3b1f1c4af7e290ab0545186) format('woff2');font-weight:100 900;font-style:normal;font-display:swap}
-body{margin:0;background:#EFEDE8}
+body{margin:0;background:#ECEAE5}
 a{color:inherit;text-decoration:none}
-.grain{background-image:url(/_blob/a2a3435450af8ea5fc7ca00e8520fdc7);background-size:220px 220px}
-.fade-b{background:linear-gradient(0deg,rgba(8,8,7,0.9) 0%,rgba(8,8,7,0.62) 38%,rgba(8,8,7,0) 66%)}
-.btn-pink{background:#F2C4C8;color:#0E0E0D}
-.btn-pink:hover{background:#FBFAF6;color:#0E0E0D}
-.row:hover{background:#1B1B1A}
-.ul{text-decoration:underline;text-underline-offset:5px;text-decoration-thickness:1px}
-.ul:hover{color:#F2C4C8}
+.za-grain{background-image:url(/_blob/a2a3435450af8ea5fc7ca00e8520fdc7);background-size:220px 220px}
+.za-label{position:absolute;font-size:14px;line-height:1;letter-spacing:-0.005em;color:#6E6A63}
+.za-futura{font-family:'Jost','Futura','Century Gothic',sans-serif;font-weight:600}
+.za-dj{background:url(/_blob/0070e1b676e48250626546b265b75e2f) 40% 6%/cover;-webkit-background-clip:text;background-clip:text;color:transparent}
+.za-btn{background:#FBFAF6;color:#0E0E0D}
+.za-btn:hover{background:#F2C4C8}
+.za-row{transition:background-color .15s}
+.za-row:hover{background:rgba(251,250,246,0.06)}
+.za-ul{text-decoration:underline;text-underline-offset:5px;text-decoration-thickness:1px}
+.za-ul:hover{color:#F2C4C8}
 </style>
 </helmet>
-<div style="width: 1920px; height: 1280px; position: relative; overflow: hidden; background: #EFEDE8; color: #0E0E0D; font-family: 'Heros', 'Helvetica Neue', Helvetica, Arial, sans-serif;">
+<div style="width: 1920px; height: 1280px; position: relative; overflow: hidden; background: #ECEAE5; color: #0E0E0D; font-family: 'Heros', 'Helvetica Neue', Helvetica, Arial, sans-serif;">
+<svg width="0" height="0" aria-hidden="true" style="position: absolute;"><defs><path id="md-logo" fill-rule="evenodd" clip-rule="evenodd" d="M53.6,99.9C56.5,99.7 59.2,99.3 61.8,98.6C62.5,98.4 63.9,98.1 64.1,98.0C64.2,98.0 64.5,97.9 64.8,97.8C66.9,97.2 69.9,96.0 72.2,94.9C81.3,90.3 88.8,83.1 93.8,74.2C95.4,71.4 97.0,67.5 97.8,64.8C97.9,64.5 98.0,64.2 98.0,64.1C98.1,64.0 98.2,63.5 98.3,63.1C100.1,56.5 100.5,49.6 99.5,42.8C99.4,42.1 99.4,41.8 99.1,40.3C98.8,39.0 98.3,36.7 97.9,35.5C97.3,33.8 97.2,33.3 97.1,33.2C97.1,33.2 97.1,33.1 97.1,33.1C97.1,32.9 96.0,30.2 95.8,29.9C95.8,29.8 95.5,29.3 95.3,28.8C94.1,26.1 92.1,22.8 90.2,20.2C89.1,18.9 89.0,18.6 88.1,17.6C84.1,13.0 79.8,9.5 74.6,6.5C73.7,5.9 71.7,4.9 70.9,4.6C69.9,4.1 69.6,4.0 68.6,3.6C63.5,1.5 58.1,.3 52.4,.1C50.7,-.0 47.0,.0 46.0,.1C45.7,.2 45.1,.3 44.7,.3C43.2,.4 40.8,.8 39.7,1.1C36.4,1.8 34.7,2.3 32.0,3.4C31.6,3.5 31.2,3.6 31.2,3.7C31.1,3.7 30.5,4.0 29.8,4.3C28.0,5.1 25.3,6.5 23.7,7.5C17.0,11.7 11.8,16.9 7.5,23.7C6.4,25.4 4.8,28.6 4.0,30.5C3.8,30.8 3.7,31.1 3.7,31.2C3.6,31.3 3.2,32.4 2.9,33.1C2.7,33.7 2.2,35.4 1.9,36.2C1.8,36.7 1.3,38.4 1.1,39.7C.8,40.8 .4,43.2 .3,44.7C.3,45.1 .2,45.7 .1,46.1C-.0,47.2 .0,52.9 .2,54.3C.4,56.6 .5,57.4 .8,59.1C.9,59.4 1.0,60.2 1.3,61.4C1.4,61.7 1.4,62.0 1.5,62.1C1.5,62.2 1.6,62.5 1.7,62.8C2.1,64.5 3.1,67.4 4.0,69.6C7.5,77.9 13.2,85.0 20.5,90.4C23.0,92.2 26.2,94.1 28.8,95.3C29.3,95.5 29.9,95.8 30.1,95.9C30.7,96.2 31.4,96.5 32.2,96.8C32.7,96.9 33.1,97.1 33.2,97.1C33.4,97.2 34.2,97.5 35.5,97.9C36.7,98.3 39.0,98.8 40.3,99.1C41.8,99.4 42.1,99.4 42.8,99.5C44.2,99.7 45.5,99.8 46.9,99.9C47.6,100.0 48.4,100.0 48.6,100.0C49.2,100.1 52.2,100.0 53.6,99.9ZM47.8,94.4C47.7,94.4 47.1,94.3 46.5,94.3C43.6,94.0 40.2,93.4 37.6,92.6C36.0,92.1 33.4,91.2 32.4,90.8C32.3,90.7 31.9,90.6 31.6,90.4C25.6,87.7 20.2,83.5 15.9,78.3C14.7,76.9 13.2,74.9 13.2,74.7C13.2,74.7 13.4,74.1 13.6,73.4C13.9,72.8 14.1,72.1 14.1,71.9C14.3,71.2 14.7,70.0 14.8,69.6C14.9,69.2 15.5,67.1 15.7,66.4C15.8,66.2 15.9,65.8 15.9,65.6C16.0,65.5 16.2,64.7 16.4,64.0C16.6,63.3 16.7,62.5 16.8,62.4C16.8,62.3 16.9,62.0 16.9,61.9C17.0,61.7 17.3,60.6 17.6,59.3C17.9,58.0 18.2,56.8 18.2,56.7C18.3,56.5 18.5,55.6 18.7,54.6C19.2,52.9 19.4,52.0 19.9,49.7C20.4,47.7 20.9,45.8 21.0,45.4C21.0,45.2 21.1,44.6 21.3,44.1C21.4,43.6 21.6,42.7 21.7,42.2C21.8,41.6 22.0,40.9 22.1,40.5C22.2,40.2 22.3,39.8 22.3,39.6C22.4,39.3 22.5,38.9 22.7,37.9C22.8,37.4 23.1,36.3 23.5,34.4C23.6,33.8 23.7,33.2 23.8,32.9C23.9,32.7 24.0,32.3 24.0,32.0C24.1,31.7 24.2,31.1 24.3,30.6C24.4,30.1 24.5,29.5 24.6,29.4C24.6,29.2 24.7,28.9 24.7,28.7C24.8,28.5 24.9,28.1 25.1,26.9C25.2,26.6 25.3,26.1 25.3,25.9C25.5,25.2 25.9,23.3 26.0,22.4C26.7,18.8 27.5,16.1 28.2,15.0C28.6,14.4 28.7,14.5 29.1,15.2C29.3,15.6 29.9,17.3 30.1,18.0C30.1,18.1 30.2,18.5 30.3,18.8C30.6,20.1 30.8,20.8 30.9,21.3C30.9,21.6 31.0,22.2 31.2,22.7C31.4,23.9 31.7,25.8 32.1,28.0C32.2,28.3 32.3,28.9 32.3,29.3C32.5,30.1 32.6,31.0 32.8,32.1C32.8,32.4 32.9,33.0 33.0,33.5C33.2,34.9 33.3,35.7 33.4,36.5C33.5,36.9 33.6,37.5 33.6,37.7C33.7,37.9 33.7,38.2 33.7,38.4C33.8,38.6 33.8,39.1 33.9,39.5C33.9,39.8 34.0,40.5 34.1,41.0C34.3,42.2 34.5,43.7 34.8,45.7C34.8,46.1 34.9,46.8 35.0,47.3C35.1,47.7 35.1,48.4 35.2,48.8C35.3,49.2 35.3,49.8 35.4,50.1C35.4,50.5 35.5,51.1 35.6,51.6C35.7,52.1 35.8,52.9 35.9,53.3C35.9,53.8 36.0,54.3 36.1,54.6C36.1,54.8 36.2,55.4 36.3,56.0C36.4,56.5 36.5,57.2 36.5,57.5C36.6,57.9 36.7,58.6 36.8,59.1C36.9,59.6 37.0,60.3 37.0,60.6C37.1,60.9 37.2,61.4 37.2,61.7C37.3,62.0 37.3,62.3 37.4,62.5C37.4,62.6 37.6,63.3 37.7,63.9C37.9,65.2 38.0,65.4 38.4,67.1C39.2,70.6 40.3,72.8 41.4,73.7C41.6,73.8 41.9,74.0 42.2,74.1C42.6,74.2 42.7,74.3 43.2,74.2C44.0,74.2 44.5,74.0 45.1,73.3C46.2,72.2 47.4,70.0 48.9,66.0C49.1,65.5 49.3,65.0 49.3,64.9C49.3,64.8 49.4,64.5 49.5,64.3C49.6,64.1 49.7,63.8 49.8,63.6C49.8,63.5 50.1,62.7 50.3,62.0C50.9,60.6 53.0,54.1 53.6,52.3C53.8,51.7 54.0,51.0 54.0,50.8C54.1,50.7 54.3,50.1 54.5,49.5C54.7,48.9 54.9,48.1 55.0,47.9C55.1,47.6 55.3,47.0 55.4,46.7C55.8,45.3 56.5,43.1 56.7,42.7C56.7,42.5 57.0,41.5 57.3,40.6C58.3,37.5 58.5,36.9 59.7,33.5C60.7,30.4 62.0,26.7 62.2,26.2C62.2,26.1 62.4,25.6 62.6,25.2C62.9,24.1 63.7,22.1 64.0,21.6C64.1,21.4 64.2,21.2 64.2,21.1C64.2,21.1 65.0,19.3 65.2,19.1C65.6,18.4 66.3,20.0 66.7,22.9C67.0,25.3 67.1,26.5 67.1,32.8C67.1,38.5 67.0,40.4 66.8,44.8C66.8,45.6 66.7,46.9 66.7,47.7C66.6,48.5 66.6,49.7 66.5,50.3C66.5,51.0 66.4,52.1 66.4,52.8C66.3,54.4 66.2,54.9 66.1,56.9C66.0,57.8 66.0,59.3 65.9,60.2C65.8,61.0 65.7,62.5 65.7,63.5C65.3,68.6 65.2,71.3 65.1,74.6C65.1,78.0 65.2,79.3 65.7,80.2C65.9,80.7 66.6,81.3 67.4,81.7C70.2,82.9 73.0,81.5 75.7,77.5C78.2,73.6 80.8,67.4 82.5,60.9C82.6,60.4 82.8,59.9 82.8,59.6C82.9,59.4 83.0,59.0 83.0,58.8C83.1,58.6 83.2,58.1 83.4,57.6C83.5,57.1 83.6,56.6 83.7,56.5C83.7,56.4 83.8,56.0 83.9,55.7C84.0,55.3 84.1,55.0 84.1,54.9C84.1,54.7 84.2,54.5 84.2,54.4C84.3,54.2 84.4,53.8 84.6,53.3C86.4,47.0 88.6,42.7 91.3,40.0C92.2,39.1 92.7,38.8 92.9,38.8C93.0,38.8 93.0,39.1 93.1,39.4C94.0,43.3 94.4,46.1 94.4,49.9C94.4,53.5 94.1,56.0 93.4,59.4C92.9,62.0 91.7,65.5 90.6,68.0C86.3,77.6 78.8,85.3 69.4,90.0C68.0,90.6 67.7,90.7 66.4,91.3C64.0,92.2 62.3,92.7 59.5,93.4C58.0,93.7 55.8,94.1 53.6,94.3C52.8,94.3 48.4,94.4 47.8,94.4ZM69.1,78.1C69.0,78.0 69.0,77.9 69.0,76.7C68.9,74.9 69.1,70.4 69.4,66.5C69.4,65.7 69.5,64.7 69.5,64.3C69.5,63.9 69.6,63.1 69.6,62.5C69.8,59.5 69.9,58.1 70.0,56.5C70.1,55.5 70.2,54.0 70.2,53.1C70.4,49.9 70.5,48.9 70.6,47.5C70.6,46.7 70.7,45.5 70.7,44.8C70.9,41.1 71.0,38.7 71.0,33.4C71.0,27.2 70.9,26.1 70.5,23.1C70.2,20.9 69.9,19.5 69.3,18.1C68.5,15.9 67.1,14.7 65.3,14.7C64.5,14.7 64.1,14.8 63.5,15.3C62.9,15.6 62.2,16.6 61.5,17.8C60.8,19.1 60.3,20.3 59.2,23.0C58.7,24.2 57.8,26.9 57.2,28.6C56.2,31.5 54.2,37.5 53.6,39.6C53.4,40.1 53.2,40.9 53.1,41.2C52.8,41.9 52.4,43.1 51.8,45.0C51.5,46.1 50.9,48.0 50.6,48.9C50.5,49.2 50.3,49.9 50.1,50.5C49.5,52.3 47.3,58.9 46.8,60.3C46.6,61.0 46.3,61.7 46.3,61.8C45.9,63.0 45.5,63.9 45.5,64.1C45.4,64.1 45.4,64.4 45.3,64.6C45.2,64.8 45.1,65.1 45.0,65.2C45.0,65.4 44.8,65.7 44.7,66.0C44.2,67.4 43.3,69.3 43.2,69.3C42.9,69.3 42.2,66.6 41.5,63.1C41.0,60.7 40.9,60.1 40.4,57.4C40.4,57.0 40.3,56.4 40.2,56.0C40.2,55.7 40.1,55.1 40.0,54.6C39.9,54.2 39.8,53.5 39.8,53.2C39.7,52.5 39.6,52.1 39.3,50.2C39.3,49.8 39.2,49.1 39.1,48.7C39.0,47.8 38.7,46.2 38.6,45.1C38.3,43.1 38.3,42.7 38.1,41.4C38.0,40.7 37.8,39.8 37.8,39.4C37.7,39.0 37.6,38.4 37.6,38.1C37.6,37.7 37.5,37.2 37.4,37.0C37.4,36.8 37.3,36.2 37.3,35.8C37.2,35.4 37.1,34.7 37.0,34.3C37.0,33.9 36.8,33.0 36.7,32.2C36.3,29.4 36.0,27.9 35.5,24.8C35.4,24.2 35.2,23.3 35.1,22.5C35.0,22.3 34.9,21.9 34.9,21.8C34.7,20.7 34.3,19.0 34.1,18.2C34.0,17.6 33.8,17.1 33.8,17.0C33.7,16.8 33.7,16.6 33.6,16.5C33.6,16.3 33.5,15.9 33.3,15.5C32.6,13.1 31.6,11.5 30.5,10.8C30.2,10.6 30.0,10.5 30.0,10.4C30.0,10.4 31.5,9.7 32.6,9.2C40.9,5.7 49.9,4.7 58.7,6.5C59.3,6.6 59.9,6.7 60.0,6.8C60.2,6.8 60.5,6.9 60.8,7.0C62.7,7.4 65.3,8.3 67.5,9.2C77.8,13.6 86.3,22.1 90.8,32.5C91.4,33.8 91.6,34.5 91.6,34.7C91.6,34.8 91.4,34.9 91.0,35.2C88.9,36.6 86.8,38.9 85.2,41.5C84.7,42.5 83.7,44.3 83.3,45.2C83.3,45.4 83.2,45.6 83.2,45.6C83.1,45.8 82.5,47.3 82.3,47.7C81.8,49.2 81.3,50.6 81.1,51.3C81.1,51.5 81.0,51.8 80.9,52.0C80.8,52.1 80.7,52.5 80.6,52.8C80.1,54.7 79.5,56.9 79.2,58.1C79.0,58.8 78.8,59.6 78.8,59.7C78.7,59.9 78.6,60.4 78.5,60.7C78.4,61.1 78.3,61.4 78.3,61.5C78.3,61.6 78.2,61.9 78.1,62.1C77.7,63.6 77.0,65.6 76.3,67.3C74.3,72.5 72.0,76.5 70.4,77.7C69.8,78.2 69.4,78.3 69.1,78.1ZM9.9,68.9C8.9,66.9 8.6,66.0 7.9,63.9C7.5,62.9 7.0,61.0 6.7,59.9C5.4,54.0 5.3,47.1 6.5,41.1C7.5,36.2 9.3,31.6 11.9,27.3C14.6,22.7 18.1,18.8 22.3,15.4C23.1,14.7 24.1,14.0 24.2,14.0C24.3,14.0 24.3,14.2 24.0,14.8C23.7,15.6 23.4,16.5 23.1,17.5C22.8,18.6 22.9,18.3 22.5,20.2C22.4,20.5 22.3,21.0 22.3,21.4C22.1,22.4 21.6,24.7 21.6,24.7C21.6,24.8 21.5,25.0 21.5,25.2C21.4,25.4 21.4,25.9 21.3,26.1C21.3,26.4 21.2,26.8 21.1,27.1C21.0,27.4 20.9,28.0 20.8,28.5C20.7,28.9 20.5,29.7 20.5,30.1C20.4,30.5 20.2,31.2 20.1,31.6C20.0,32.0 19.9,32.5 19.9,32.7C19.8,32.9 19.8,33.2 19.7,33.5C19.6,33.7 19.5,34.2 19.5,34.5C19.4,34.8 19.3,35.3 19.2,35.5C19.2,35.7 18.9,36.8 18.7,37.9C18.4,39.0 18.2,40.2 18.1,40.5C18.0,40.9 17.9,41.3 17.9,41.5C17.8,41.6 17.7,42.0 17.7,42.4C17.6,42.7 17.4,43.7 17.1,44.6C16.6,47.0 16.3,48.3 16.2,48.8C16.1,49.1 15.9,49.7 15.8,50.2C15.7,50.7 15.5,51.4 15.5,51.6C15.4,51.8 14.9,54.1 14.2,56.6C13.6,59.1 13.0,61.4 13.0,61.6C12.9,61.9 12.5,63.4 12.3,64.1C12.1,64.8 11.8,66.1 11.6,66.8C11.2,67.9 10.9,69.1 10.8,69.5C10.7,70.0 10.6,70.1 10.5,70.1C10.4,70.1 10.2,69.5 9.9,68.9Z"></path></defs></svg>
 
-  <div style="position: absolute; left: 64px; top: 54px; width: 1792px; height: 82px; display: flex; justify-content: space-between; align-items: flex-end;">
-    <div style="display: flex; flex-direction: column; gap: 8px;">
-      <span style="font-size: 15px; color: #5E5B55;">Brand direction F · Zibspuldze</span>
-      <span style="font-size: 56px; line-height: 1; letter-spacing: -0.045em;">Applications</span>
-    </div>
-    <span style="font-size: 15px; color: #5E5B55;">Poster, homepage, Instagram posts, story, ticket</span>
+  <header style="position: absolute; left: 64px; top: 44px;">
+    <h1 style="margin: 0; font-weight: 400; font-size: 112px; line-height: 1; letter-spacing: -0.05em;">Zibspuldze</h1>
+    <p style="margin: 20px 0 0 0; font-size: 18px; line-height: 1.2; letter-spacing: -0.01em; color: #55524C;">Zibspuldzes fotogrāfija · Eksperimentāla tipogrāfija · Logotips kā fons · Krāsu pārklājumi</p>
+  </header>
+
+  <span class="za-label" style="left: 64px; top: 236px;">Plakāts</span>
+  <div lang="lv" style="position: absolute; left: 64px; top: 260px; width: 532px; height: 752px; overflow: hidden; background: #0E0E0D; color: #FBFAF6;">
+    <div class="za-dj" aria-hidden="true" style="position: absolute; left: -40px; top: -130px; width: 760px; height: 560px; font-weight: 700; font-size: 540px; line-height: 1; letter-spacing: -0.06em; white-space: nowrap;">DJ</div>
+    <h2 style="position: absolute; left: 26px; top: 452px; margin: 0; font-weight: 400; font-size: 132px; line-height: 1; letter-spacing: -0.055em;"><span style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%);">DJ </span><span style="position: relative; display: inline-block;">vakars<svg viewBox="0 0 100 100" aria-hidden="true" style="position: absolute; left: 100%; margin-left: 0.02em; top: -0.55em; width: 0.76em; height: 0.76em; display: block; color: #FBFAF6;"><use href="#md-logo" fill="currentColor"></use></svg></span></h2>
+    <p style="position: absolute; left: 32px; bottom: 34px; margin: 0; font-size: 20px; line-height: 1.35; letter-spacing: -0.02em;">Piektdiena, 15. janvāris · 22:00<br><span style="color: #A9A59D;">Aristīda Briāna 9, Rīga</span></p>
   </div>
 
-  <div lang="lv" style="position: absolute; left: 64px; top: 168px; width: 560px; height: 792px; background: #0E0E0D; color: #F7F5F0; overflow: hidden;">
-    <div style="position: absolute; left: 30px; top: 52px; font-size: 78px; line-height: 1; letter-spacing: -0.05em;">
-      <span style="position: relative; display: inline-block;">DJ vakars<img src="/_blob/4846b02a3cde41cbf6bfae9fc6ec6f94" alt="M/darbnīca logo" style="position: absolute; left: 100%; margin-left: 0.02em; top: -0.55em; width: 0.76em; height: 0.76em; display: block;"></span><br>līdz rītam
-    </div>
-    <div style="position: absolute; left: 30px; top: 232px; width: 500px; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px;">
-      <div style="display: flex; flex-direction: column; gap: 10px;">
-        <div style="height: 404px; overflow: hidden; background: #000;"><img src="/_blob/8db9f6f4b8b2166de0ca82fa642fadde" alt="Two women dancing with arms up under direct flash" style="width: 100%; height: 100%; object-fit: cover; object-position: 50% 30%; display: block;"></div>
-        <span style="font-size: 13px; color: #A9A59D; font-variant-numeric: tabular-nums;">Nr. 25 · 23:41</span>
-      </div>
-      <div style="display: flex; flex-direction: column; gap: 10px;">
-        <div style="height: 404px; overflow: hidden; background: #000;"><img src="/_blob/0070e1b676e48250626546b265b75e2f" alt="Two friends cheek to cheek in red, light trails" style="width: 100%; height: 100%; object-fit: cover; object-position: 50% 35%; display: block;"></div>
-        <span style="font-size: 13px; color: #A9A59D; font-variant-numeric: tabular-nums;">Nr. 26 · 00:12</span>
-      </div>
-      <div style="display: flex; flex-direction: column; gap: 10px;">
-        <div style="height: 404px; overflow: hidden; background: #000;"><img src="/_blob/f255b822b2232084fc9e1bf8c68ce1b8" alt="Two bearded men with drinks and orange light trails" style="width: 100%; height: 100%; object-fit: cover; object-position: 50% 35%; display: block;"></div>
-        <span style="font-size: 13px; color: #A9A59D; font-variant-numeric: tabular-nums;">Nr. 36 · 04:52</span>
-      </div>
-    </div>
-    <div style="position: absolute; left: 30px; right: 30px; bottom: 30px; display: flex; justify-content: space-between; align-items: flex-end;">
-      <div style="display: flex; flex-direction: column; gap: 4px;">
-        <span style="font-size: 20px; letter-spacing: -0.03em;">Piektdiena, 15. janvāris · no 22:00</span>
-        <span style="font-size: 14px; letter-spacing: -0.02em; color: #A9A59D;">Aristīda Briāna 9, Rīga · mdarbnica.lv</span>
-      </div>
-      <span style="font-family: 'Jost', 'Futura', sans-serif; font-weight: 600; font-size: 24px; line-height: 1; letter-spacing: -0.02em; color: #F2C4C8;">JANVĀRIS</span>
-    </div>
-    <div class="grain" aria-hidden="true" style="position: absolute; inset: 0; mix-blend-mode: overlay; opacity: 0.3; pointer-events: none;"></div>
-  </div>
-
-  <div lang="lv" style="position: absolute; left: 64px; top: 992px; width: 560px; height: 224px; background: #0E0E0D; color: #F7F5F0; display: grid; grid-template-columns: 150px minmax(0, 1fr) 118px; overflow: hidden;">
-    <div style="overflow: hidden;"><img src="/_blob/8d9cfa70b98924b1e867cdc172df81ba" alt="" style="width: 100%; height: 100%; object-fit: cover; object-position: 45% 40%; display: block;"></div>
-    <div style="padding: 20px 22px; display: flex; flex-direction: column;">
-      <span style="font-size: 13px; color: #A9A59D;">Ieejas biļete</span>
-      <span style="margin-top: 14px; font-size: 44px; line-height: 1; letter-spacing: -0.045em;">DJ vakars</span>
-      <span style="margin-top: auto; font-size: 15px; letter-spacing: -0.02em;">Piektdiena, 15. janvāris · 22:00</span>
-      <span style="margin-top: 3px; font-size: 13px; color: #A9A59D;">Aristīda Briāna 9, Rīga</span>
-    </div>
-    <div style="background: #F2C4C8; color: #0E0E0D; border-left: 2px dashed #0E0E0D; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px;">
-      <span style="font-size: 12px;">Nr.</span>
-      <span style="font-family: 'Jost', 'Futura', sans-serif; font-weight: 600; font-size: 38px; line-height: 1; letter-spacing: -0.02em; font-variant-numeric: tabular-nums;">0415</span>
+  <span class="za-label" style="left: 64px; top: 1040px;">Biļete</span>
+  <div lang="lv" style="position: absolute; left: 64px; top: 1064px; width: 532px; height: 152px; overflow: hidden; background: #F2C4C8; color: #0E0E0D;">
+    <svg viewBox="0 0 100 100" aria-hidden="true" style="position: absolute; left: 238px; top: -78px; width: 300px; height: 300px; color: #FBFAF6; opacity: 0.6;"><use href="#md-logo" fill="currentColor"></use></svg>
+    <span style="position: absolute; left: 22px; top: 18px; font-size: 13px; line-height: 1;">Ieejas biļete</span>
+    <span style="position: absolute; left: 20px; top: 38px; font-size: 46px; line-height: 1; letter-spacing: -0.05em;">DJ vakars</span>
+    <span style="position: absolute; left: 22px; bottom: 18px; font-size: 15px; line-height: 1.3; letter-spacing: -0.01em;">Piektdiena, 15. janvāris · 22:00<br>Aristīda Briāna 9, Rīga</span>
+    <div style="position: absolute; right: 0; top: 0; bottom: 0; width: 112px; background: #0E0E0D; color: #F2C4C8; border-left: 2px dashed #F2C4C8; box-sizing: border-box;">
+      <span style="position: absolute; left: 18px; top: 18px; font-size: 13px; line-height: 1.3;">Nr.<br><span style="font-size: 22px; letter-spacing: -0.02em; color: #FBFAF6;">0415</span></span>
+      <svg viewBox="0 0 100 100" aria-hidden="true" style="position: absolute; left: 18px; bottom: 18px; width: 30px; height: 30px; color: #FBFAF6;"><use href="#md-logo" fill="currentColor"></use></svg>
     </div>
   </div>
 
-  <div style="position: absolute; left: 656px; top: 168px; width: 1200px; height: 640px; border-radius: 10px; overflow: hidden; background: #DCD9D2; box-shadow: 0 1px 2px rgba(14,14,13,0.12), 0 18px 40px -16px rgba(14,14,13,0.35);">
-    <div aria-hidden="true" style="height: 36px; position: relative; display: flex; align-items: center; gap: 8px; padding: 0 16px;">
-      <span style="width: 11px; height: 11px; border-radius: 50%; background: #B9B5AD;"></span><span style="width: 11px; height: 11px; border-radius: 50%; background: #B9B5AD;"></span><span style="width: 11px; height: 11px; border-radius: 50%; background: #B9B5AD;"></span>
-      <span style="position: absolute; left: 420px; top: 6px; width: 360px; height: 24px; border-radius: 6px; background: #EFEDE8; color: #5E5B55; font-size: 13px; display: flex; align-items: center; justify-content: center;">mdarbnica.lv</span>
+  <span class="za-label" style="left: 628px; top: 236px;">Mājaslapa</span>
+  <div style="position: absolute; left: 628px; top: 260px; width: 1228px; height: 534px; overflow: hidden; background: #D8D5CE; box-shadow: 0 1px 2px rgba(14,14,13,0.10), 0 20px 40px -18px rgba(14,14,13,0.35);">
+    <div aria-hidden="true" style="height: 26px; position: relative; display: flex; align-items: center; gap: 7px; padding: 0 12px;">
+      <span style="width: 9px; height: 9px; border-radius: 50%; background: #B4B0A8;"></span><span style="width: 9px; height: 9px; border-radius: 50%; background: #B4B0A8;"></span><span style="width: 9px; height: 9px; border-radius: 50%; background: #B4B0A8;"></span>
+      <span style="position: absolute; left: 474px; top: 4px; width: 280px; height: 18px; border-radius: 5px; background: #ECEAE5; color: #55524C; font-size: 13px; line-height: 18px; text-align: center;">mdarbnica.lv</span>
     </div>
-    <div lang="lv" style="position: relative; height: 604px; background: #0E0E0D; color: #F4F2EC; overflow: hidden;">
-      <nav aria-label="Galvenā navigācija" style="position: absolute; left: 36px; right: 36px; top: 0; height: 62px; display: flex; align-items: center; justify-content: space-between;">
-        <div style="display: flex; align-items: center; gap: 40px;">
-          <a href="#" aria-label="M/darbnīca" style="display: block;"><img src="/_blob/4846b02a3cde41cbf6bfae9fc6ec6f94" alt="M/darbnīca" style="width: 34px; height: 34px; display: block;"></a>
-          <div style="display: flex; gap: 28px; font-size: 15px; letter-spacing: -0.01em;">
-            <a href="#">Programma</a><a href="#">Kadri</a><a href="#">Telpas</a><a href="#">Par mums</a>
-          </div>
+    <div lang="lv" style="position: relative; height: 508px; overflow: hidden; background: #0E0E0D; color: #FBFAF6; isolation: isolate;">
+      <svg viewBox="0 0 100 100" aria-hidden="true" style="position: absolute; left: -230px; top: 190px; width: 780px; height: 780px; color: #1D3B2D; opacity: 0.7;"><use href="#md-logo" fill="currentColor"></use></svg>
+      <div style="position: absolute; left: 600px; top: 0; width: 628px; height: 508px; overflow: hidden; isolation: isolate;">
+        <img src="/_blob/f7770038e9fc8b3cc34ead9e1242836b" alt="Dziedātājs cepurē ar paceltu roku uz skatuves, zaļš un rozā krāsu pārklājums" style="width: 100%; height: 100%; object-fit: cover; object-position: 52% 30%; display: block;">
+        <div aria-hidden="true" style="position: absolute; inset: 0; background: #1D3B2D; mix-blend-mode: screen;"></div>
+        <div aria-hidden="true" style="position: absolute; inset: 0; background: #F2C4C8; mix-blend-mode: multiply;"></div>
+      </div>
+      <h2 style="position: absolute; left: 28px; top: 40px; margin: 0; padding: 30px 0 70px 0; font-weight: 400; font-size: 200px; line-height: 1; letter-spacing: -0.06em; white-space: nowrap; clip-path: inset(0 calc(100% - 572px) 0 0);">Šonedēļ</h2>
+      <div aria-hidden="true" style="position: absolute; left: 28px; top: 40px; padding: 30px 0 70px 0; font-size: 200px; line-height: 1; letter-spacing: -0.06em; white-space: nowrap; color: #0E0E0D; mix-blend-mode: multiply; clip-path: inset(0 0 0 572px);">Šonedēļ</div>
+      <nav aria-label="Galvenā navigācija" style="position: absolute; left: 32px; right: 32px; top: 0; height: 66px; display: flex; align-items: center; justify-content: space-between;">
+        <div style="display: flex; align-items: center; gap: 34px;">
+          <a href="#" aria-label="M/darbnīcas sākumlapa" style="display: block;"><svg viewBox="0 0 100 100" aria-hidden="true" style="width: 34px; height: 34px; display: block; color: #FBFAF6;"><use href="#md-logo" fill="currentColor"></use></svg></a>
+          <div style="display: flex; gap: 26px; font-size: 15px; letter-spacing: -0.01em;"><a href="#">Programma</a><a href="#">Kino</a><a href="#">Galerija</a><a href="#">Telpu noma</a><a href="#">Par mums</a></div>
         </div>
-        <a href="#" class="btn-pink" style="padding: 9px 18px 10px; border-radius: 2px; font-size: 14px; font-weight: 700; letter-spacing: -0.01em;">Biļetes</a>
+        <a href="#" class="za-btn" style="padding: 10px 18px 11px; font-size: 14px; font-weight: 700; letter-spacing: -0.01em;">Biļetes</a>
       </nav>
-      <div style="position: absolute; left: 0; right: 0; top: 62px; height: 246px; display: grid; grid-template-columns: 380fr 180fr 260fr 180fr 184fr; gap: 4px;">
-        <div style="overflow: hidden;"><img src="/_blob/4282dd60b3115d968b43d040af4ab799" alt="Singer at the microphone with the red neon logo behind her" style="width: 100%; height: 100%; object-fit: cover; object-position: 45% 30%; display: block;"></div>
-        <div style="overflow: hidden;"><img src="/_blob/38dd75a8ccc7cc179f15badf14c29786" alt="Guitarist under the red neon sign" style="width: 100%; height: 100%; object-fit: cover; object-position: 62% 30%; display: block;"></div>
-        <div style="overflow: hidden;"><img src="/_blob/ae4534c79da2c35560e96abc2dabb8e5" alt="Two musicians in suits in hard side light" style="width: 100%; height: 100%; object-fit: cover; object-position: 50% 50%; display: block;"></div>
-        <div style="overflow: hidden;"><img src="/_blob/8db9f6f4b8b2166de0ca82fa642fadde" alt="Dancing with arms up" style="width: 100%; height: 100%; object-fit: cover; object-position: 50% 30%; display: block;"></div>
-        <div style="overflow: hidden;"><img src="/_blob/d68c0e18ff5919b2c9e3a3e0150a3293" alt="Crowd at the bar counter" style="width: 100%; height: 100%; object-fit: cover; object-position: 40% 45%; display: block;"></div>
-      </div>
-      <div style="position: absolute; left: 0; right: 0; top: 308px; height: 24px; display: grid; grid-template-columns: 380fr 180fr 260fr 180fr 184fr; gap: 4px; font-size: 12px; color: #A9A59D; font-variant-numeric: tabular-nums;">
-        <span style="padding: 6px 10px 0;">Nr. 21 · 21:48</span><span style="padding: 6px 10px 0;">Nr. 22 · 22:05</span><span style="padding: 6px 10px 0;">Nr. 23 · 22:31</span><span style="padding: 6px 10px 0;">Nr. 25 · 23:41</span><span style="padding: 6px 10px 0; display: flex; justify-content: space-between;"><span>Nr. 28 · 01:30</span><a href="#" class="ul" style="color: #F4F2EC;">Visi kadri</a></span>
-      </div>
-      <div style="position: absolute; left: 36px; top: 374px; width: 500px;">
-        <h1 style="margin: 0; font-weight: 400; font-size: 56px; line-height: 1; letter-spacing: -0.05em;">Šovakar M/darbnīcā</h1>
-        <p style="margin: 14px 0 0 0; max-width: 470px; font-size: 17px; line-height: 1.4; letter-spacing: -0.03em; color: #CFCBC2;">Sestdiena, 16. janvāris: tirdziņš no 12:00, koncerts no 20:00.</p>
-        <div style="margin-top: 22px; display: flex; align-items: center; gap: 24px;">
-          <a href="#" class="btn-pink" style="padding: 12px 22px 13px; border-radius: 2px; font-size: 15px; font-weight: 700; letter-spacing: -0.01em;">Pirkt biļeti</a>
-          <a href="#" class="ul" style="font-size: 15px; letter-spacing: -0.01em;">Visa programma</a>
-        </div>
-      </div>
-      <div style="position: absolute; left: 568px; right: 36px; top: 370px; display: flex; flex-direction: column; font-size: 16px; letter-spacing: -0.02em;">
-        <a href="#" class="row" style="height: 38px; display: grid; grid-template-columns: 82px minmax(0, 1fr) auto; align-items: center; border-top: 1px solid #2E2E2C;"><span style="color: #A9A59D; font-variant-numeric: tabular-nums;">T 13.01</span><span>Džems — atvērtā skatuve</span><span style="font-variant-numeric: tabular-nums;">20:00</span></a>
-        <a href="#" class="row" style="height: 38px; display: grid; grid-template-columns: 82px minmax(0, 1fr) auto; align-items: center; border-top: 1px solid #2E2E2C;"><span style="color: #A9A59D; font-variant-numeric: tabular-nums;">C 14.01</span><span>Kino vakars</span><span style="font-variant-numeric: tabular-nums;">19:30</span></a>
-        <a href="#" class="row" style="height: 38px; display: grid; grid-template-columns: 82px minmax(0, 1fr) auto; align-items: center; border-top: 1px solid #2E2E2C;"><span style="color: #A9A59D; font-variant-numeric: tabular-nums;">Pk 15.01</span><span>DJ vakars līdz rītam</span><span style="font-variant-numeric: tabular-nums;">22:00</span></a>
-        <a href="#" class="row" style="height: 38px; display: grid; grid-template-columns: 82px minmax(0, 1fr) auto; align-items: center; border-top: 1px solid #2E2E2C;"><span style="color: #F2C4C8; font-variant-numeric: tabular-nums;">S 16.01</span><span>Vintage tirdziņš</span><span style="font-variant-numeric: tabular-nums;">12:00</span></a>
-        <a href="#" class="row" style="height: 38px; display: grid; grid-template-columns: 82px minmax(0, 1fr) auto; align-items: center; border-top: 1px solid #2E2E2C; border-bottom: 1px solid #2E2E2C;"><span style="color: #F2C4C8; font-variant-numeric: tabular-nums;">S 16.01</span><span>Sestdienas koncerts</span><span style="font-variant-numeric: tabular-nums;">20:00</span></a>
+      <div style="position: absolute; left: 34px; top: 302px; width: 530px; font-size: 16px; letter-spacing: -0.015em;">
+        <a href="#" class="za-row" style="display: grid; grid-template-columns: 84px minmax(0, 1fr) auto; height: 31px; align-items: center; border-top: 1px solid rgba(251,250,246,0.22);"><span style="color: #A9A59D;">T 13.01</span><span>Džems</span><span>20:00</span></a>
+        <a href="#" class="za-row" style="display: grid; grid-template-columns: 84px minmax(0, 1fr) auto; height: 31px; align-items: center; border-top: 1px solid rgba(251,250,246,0.22);"><span style="color: #A9A59D;">C 14.01</span><span>Kino vakars<span style="margin-left: 14px; padding: 2px 7px 3px; border: 1px solid #D9404C; border-radius: 999px; font-size: 13px; letter-spacing: 0; color: #E2555F; vertical-align: 1px;">Izpārdots</span></span><span>19:30</span></a>
+        <a href="#" class="za-row" style="display: grid; grid-template-columns: 84px minmax(0, 1fr) auto; height: 31px; align-items: center; border-top: 1px solid rgba(251,250,246,0.22);"><span style="color: #A9A59D;">Pk 15.01</span><span>DJ vakars</span><span>22:00</span></a>
+        <a href="#" class="za-row" style="display: grid; grid-template-columns: 84px minmax(0, 1fr) auto; height: 31px; align-items: center; border-top: 1px solid rgba(251,250,246,0.22);"><span style="color: #A9A59D;">S 16.01</span><span>Vintage tirdziņš</span><span>12:00</span></a>
+        <a href="#" class="za-row" style="display: grid; grid-template-columns: 84px minmax(0, 1fr) auto; height: 31px; align-items: center; border-top: 1px solid rgba(251,250,246,0.22); border-bottom: 1px solid rgba(251,250,246,0.22);"><span style="color: #A9A59D;">S 16.01</span><span>Koncerts</span><span>20:00</span></a>
+        <a href="#" class="za-ul" style="display: inline-block; margin-top: 16px; font-size: 15px;">Visa programma</a>
       </div>
     </div>
   </div>
 
-  <span style="position: absolute; left: 656px; top: 818px; font-size: 13px; color: #5E5B55;">Instagram</span>
-  <div lang="lv" style="position: absolute; left: 656px; top: 841px; width: 300px; height: 375px; overflow: hidden; background: #000; color: #F7F5F0;">
-    <img src="/_blob/2a6f94a9f0fe218731ff73b240c8e827" alt="Singer raising a glass of wine at the microphone, band behind her" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 38% 30%; display: block;">
-    <div class="fade-b" aria-hidden="true" style="position: absolute; inset: 0;"></div>
-    <img src="/_blob/4846b02a3cde41cbf6bfae9fc6ec6f94" alt="M/darbnīca" style="position: absolute; right: 12px; top: 12px; width: 22px; height: 22px; display: block;">
-    <span style="position: absolute; left: 20px; top: 226px; width: 260px; font-size: 28px; line-height: 1; letter-spacing: -0.05em;">Četras balsis, kas mainīja soula mūziku</span>
-    <p style="position: absolute; left: 20px; top: 296px; width: 256px; margin: 0; font-size: 12px; line-height: 1.3; letter-spacing: -0.03em; color: #EDEAE3;">Veltījums Tīnas Tērneres, Arētas Franklinas, Etas Džeimsas un Vitnijas Hjūstones balsīm.</p>
-    <div aria-hidden="true" style="position: absolute; left: 0; right: 0; bottom: 12px; display: flex; justify-content: center; gap: 5px;"><span style="width: 5px; height: 5px; border-radius: 50%; background: #F7F5F0;"></span><span style="width: 5px; height: 5px; border-radius: 50%; background: rgba(247,245,240,0.45);"></span><span style="width: 5px; height: 5px; border-radius: 50%; background: rgba(247,245,240,0.45);"></span><span style="width: 5px; height: 5px; border-radius: 50%; background: rgba(247,245,240,0.45);"></span><span style="width: 5px; height: 5px; border-radius: 50%; background: rgba(247,245,240,0.45);"></span></div>
+  <span class="za-label" style="left: 628px; top: 822px;">Instagram ieraksti</span>
+  <div lang="lv" style="position: absolute; left: 628px; top: 846px; width: 296px; height: 370px; overflow: hidden; background: #0E0E0D; color: #FBFAF6;">
+    <svg viewBox="0 0 296 370" role="img" aria-label="Dziedātājs ar mikrofonu aplī, ap to teksts" style="position: absolute; inset: 0; width: 296px; height: 370px;">
+      <defs>
+        <path id="za-ring1" d="M 148,240 m -113,0 a 113,113 0 1,1 226,0 a 113,113 0 1,1 -226,0"></path>
+        <clipPath id="za-circ1"><circle cx="148" cy="240" r="95"></circle></clipPath>
+      </defs>
+      <image href="/_blob/dad971763c71ead49e975a7f08affc85" x="-30" y="93" width="468" height="312" preserveAspectRatio="xMidYMid slice" clip-path="url(#za-circ1)"></image>
+      <text font-family="Heros, Helvetica, Arial, sans-serif" font-size="16" fill="#FBFAF6"><textPath href="#za-ring1" textLength="706" lengthAdjust="spacing">Atvērtā skatuve · Trešdiena, 13. janvāris · 20:00 · Aristīda Briāna 9, Rīga · </textPath></text>
+    </svg>
+    <div style="position: absolute; left: 20px; top: 40px; font-size: 50px; line-height: 1; letter-spacing: -0.05em;"><span style="position: relative; display: inline-block;">Džems<svg viewBox="0 0 100 100" aria-hidden="true" style="position: absolute; left: 100%; margin-left: 0.02em; top: -0.55em; width: 0.76em; height: 0.76em; display: block; color: #FBFAF6;"><use href="#md-logo" fill="currentColor"></use></svg></span></div>
   </div>
 
-  <div lang="lv" style="position: absolute; left: 988px; top: 841px; width: 300px; height: 375px; overflow: hidden; background: #FBFAF6; box-shadow: inset 0 0 0 1px #DEDAD2;">
-    <div style="position: absolute; left: 18px; top: 34px; font-size: 26px; line-height: 1; letter-spacing: -0.045em;"><span style="position: relative; display: inline-block;">Vakar M/darbnīcā<img src="/_blob/6037eaf2eb25ff1ad1495d84ebd972e2" alt="" style="position: absolute; left: 100%; margin-left: 0.02em; top: -0.55em; width: 0.76em; height: 0.76em; display: block;"></span></div>
-    <div style="position: absolute; left: 18px; right: 18px; top: 78px; height: 256px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); grid-template-rows: repeat(2, minmax(0, 1fr)); gap: 4px;">
-      <img src="/_blob/5f8e10eb8019d28822c9ad171b2f8706" alt="Two men toasting cocktails" style="width: 100%; height: 100%; object-fit: cover; display: block;">
-      <div style="position: relative; overflow: hidden;"><img src="/_blob/f68dc699d7811417a000b0e28a578bf1" alt="Two friends with gem face decorations" style="width: 100%; height: 100%; object-fit: cover; display: block;"><div style="position: absolute; right: 8px; bottom: 8px;"><svg width="75" height="16" viewBox="0 0 158.8 34.0" aria-hidden="true" style="display: block; overflow: visible; filter: drop-shadow(0 0 2px rgba(255,120,40,0.85)) drop-shadow(0 0 6px rgba(255,90,20,0.45));"><g fill="#FF8A3D" opacity="0.92"><polygon points="7.60,0 11.60,0 7.40,9 4.90,9"></polygon><polygon points="16.01,1.80 18.06,0.00 29.46,0.00 31.01,1.80 28.96,3.60 17.56,3.60"></polygon><polygon points="31.61,2.50 33.16,4.30 31.98,12.70 29.93,14.50 28.38,12.70 29.56,4.30"></polygon><polygon points="11.75,32.20 13.80,30.40 25.20,30.40 26.75,32.20 24.70,34.00 13.30,34.00"></polygon><polygon points="12.83,19.50 14.38,21.30 13.20,29.70 11.15,31.50 9.60,29.70 10.78,21.30"></polygon><polygon points="13.88,17.00 15.93,15.20 27.33,15.20 28.88,17.00 26.83,18.80 15.43,18.80"></polygon><polygon points="41.01,1.80 43.06,0.00 54.46,0.00 56.01,1.80 53.96,3.60 42.56,3.60"></polygon><polygon points="56.61,2.50 58.16,4.30 56.98,12.70 54.93,14.50 53.38,12.70 54.56,4.30"></polygon><polygon points="54.23,19.50 55.78,21.30 54.60,29.70 52.55,31.50 51.00,29.70 52.18,21.30"></polygon><polygon points="91.61,2.50 93.16,4.30 91.98,12.70 89.93,14.50 88.38,12.70 89.56,4.30"></polygon><polygon points="89.23,19.50 90.78,21.30 89.60,29.70 87.55,31.50 86.00,29.70 87.18,21.30"></polygon><polygon points="126.61,2.50 128.16,4.30 126.98,12.70 124.93,14.50 123.38,12.70 124.56,4.30"></polygon><polygon points="124.23,19.50 125.78,21.30 124.60,29.70 122.55,31.50 121.00,29.70 122.18,21.30"></polygon><polygon points="136.01,1.80 138.06,0.00 149.46,0.00 151.01,1.80 148.96,3.60 137.56,3.60"></polygon><polygon points="149.23,19.50 150.78,21.30 149.60,29.70 147.55,31.50 146.00,29.70 147.18,21.30"></polygon><polygon points="131.75,32.20 133.80,30.40 145.20,30.40 146.75,32.20 144.70,34.00 133.30,34.00"></polygon><polygon points="135.21,2.50 136.76,4.30 135.58,12.70 133.53,14.50 131.98,12.70 133.16,4.30"></polygon><polygon points="133.88,17.00 135.93,15.20 147.33,15.20 148.88,17.00 146.83,18.80 135.43,18.80"></polygon></g></svg></div></div>
-      <img src="/_blob/4df73aafde6529f3f7c1262d87133723" alt="Guest in a denim jacket in a doorway" style="width: 100%; height: 100%; object-fit: cover; object-position: 50% 30%; display: block;">
-      <img src="/_blob/83519dac6f7a6892082d899e5a2e3298" alt="Man in a white T-shirt with a beer on the terrace" style="width: 100%; height: 100%; object-fit: cover; object-position: 50% 25%; display: block;">
-    </div>
-    <span style="position: absolute; left: 18px; bottom: 15px; font-size: 12px; letter-spacing: -0.02em; color: #5E5B55; font-variant-numeric: tabular-nums;">Nr. 30–34 · piektdiena, 15.01</span>
+  <div lang="lv" style="position: absolute; left: 968px; top: 846px; width: 296px; height: 370px; overflow: hidden; background: #0E0E0D; color: #FBFAF6; isolation: isolate;">
+    <img src="/_blob/8d9cfa70b98924b1e867cdc172df81ba" alt="Smaidošs viesis ar mirdzošām brillēm, zaļš krāsu pārklājums" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 44% 50%; display: block;">
+    <div aria-hidden="true" style="position: absolute; inset: 0; background: #1D3B2D; mix-blend-mode: color;"></div>
+    <div aria-hidden="true" style="position: absolute; inset: 0; background: #1D3B2D; mix-blend-mode: multiply; opacity: 0.45;"></div>
+    <div aria-hidden="true" style="position: absolute; left: -12px; top: -46px; font-size: 244px; line-height: 1; letter-spacing: -0.06em;">Ki</div>
+    <div aria-hidden="true" style="position: absolute; right: -10px; bottom: -44px; font-size: 244px; line-height: 1; letter-spacing: -0.06em;">no</div>
+    <p style="position: absolute; left: 20px; top: 208px; margin: 0; font-size: 20px; line-height: 1.15; letter-spacing: -0.03em;"><span style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%);">Kino </span>vakars<br><span style="font-size: 14px; letter-spacing: -0.01em;">C 14.01 · 19:30</span></p>
+    <svg viewBox="0 0 100 100" aria-hidden="true" style="position: absolute; right: 14px; top: 14px; width: 22px; height: 22px; color: #FBFAF6;"><use href="#md-logo" fill="currentColor"></use></svg>
   </div>
 
-  <div lang="lv" style="position: absolute; left: 1320px; top: 841px; width: 300px; height: 375px; overflow: hidden; background: #1D3B2D; color: #F4F2EC;">
-    <div style="position: absolute; left: 20px; top: 44px; font-family: 'Jost', 'Futura', sans-serif; font-weight: 600; font-size: 46px; line-height: 1; letter-spacing: -0.03em; color: #F2C4C8;"><span style="position: relative; display: inline-block;">JANVĀRIS<img src="/_blob/f66437f1f69bbf40e707182147ce14c6" alt="" style="position: absolute; left: 100%; margin-left: 0.04em; top: -0.5em; width: 0.72em; height: 0.72em; display: block;"></span></div>
-    <div style="position: absolute; left: 20px; right: 20px; top: 118px; display: flex; flex-direction: column;">
-      <div style="height: 42px; display: grid; grid-template-columns: 44px minmax(0, 1fr) auto; align-items: center; border-top: 1px solid rgba(244,242,236,0.22);"><span style="font-family: 'Jost', 'Futura', sans-serif; font-weight: 600; font-size: 26px; line-height: 1; color: #F2C4C8; font-variant-numeric: tabular-nums;">13</span><span style="font-size: 16px; letter-spacing: -0.03em;">Džems</span><span style="font-size: 13px; color: #C9D3CD; font-variant-numeric: tabular-nums;">20:00</span></div>
-      <div style="height: 42px; display: grid; grid-template-columns: 44px minmax(0, 1fr) auto; align-items: center; border-top: 1px solid rgba(244,242,236,0.22);"><span style="font-family: 'Jost', 'Futura', sans-serif; font-weight: 600; font-size: 26px; line-height: 1; color: #F2C4C8; font-variant-numeric: tabular-nums;">14</span><span style="font-size: 16px; letter-spacing: -0.03em;">Kino vakars</span><span style="font-size: 13px; color: #C9D3CD; font-variant-numeric: tabular-nums;">19:30</span></div>
-      <div style="height: 42px; display: grid; grid-template-columns: 44px minmax(0, 1fr) auto; align-items: center; border-top: 1px solid rgba(244,242,236,0.22);"><span style="font-family: 'Jost', 'Futura', sans-serif; font-weight: 600; font-size: 26px; line-height: 1; color: #F2C4C8; font-variant-numeric: tabular-nums;">15</span><span style="font-size: 16px; letter-spacing: -0.03em;">DJ vakars</span><span style="font-size: 13px; color: #C9D3CD; font-variant-numeric: tabular-nums;">22:00</span></div>
-      <div style="height: 42px; display: grid; grid-template-columns: 44px minmax(0, 1fr) auto; align-items: center; border-top: 1px solid rgba(244,242,236,0.22);"><span style="font-family: 'Jost', 'Futura', sans-serif; font-weight: 600; font-size: 26px; line-height: 1; color: #F2C4C8; font-variant-numeric: tabular-nums;">16</span><span style="font-size: 16px; letter-spacing: -0.03em;">Vintage tirdziņš</span><span style="font-size: 13px; color: #C9D3CD; font-variant-numeric: tabular-nums;">12:00</span></div>
-      <div style="height: 42px; display: grid; grid-template-columns: 44px minmax(0, 1fr) auto; align-items: center; border-top: 1px solid rgba(244,242,236,0.22); border-bottom: 1px solid rgba(244,242,236,0.22);"><span style="font-family: 'Jost', 'Futura', sans-serif; font-weight: 600; font-size: 26px; line-height: 1; color: #F2C4C8; font-variant-numeric: tabular-nums;">16</span><span style="font-size: 16px; letter-spacing: -0.03em;">Sestdienas koncerts</span><span style="font-size: 13px; color: #C9D3CD; font-variant-numeric: tabular-nums;">20:00</span></div>
-    </div>
-    <span style="position: absolute; left: 20px; bottom: 18px; font-size: 12px; letter-spacing: -0.02em; color: #C9D3CD;">Aristīda Briāna 9 · mdarbnica.lv</span>
+  <div lang="lv" style="position: absolute; left: 1308px; top: 846px; width: 296px; height: 370px; overflow: hidden; background: #F2C4C8; color: #0E0E0D;">
+    <svg viewBox="0 0 100 100" aria-hidden="true" style="position: absolute; left: -150px; top: 70px; width: 520px; height: 520px; color: #FBFAF6; opacity: 0.6;"><use href="#md-logo" fill="currentColor"></use></svg>
+    <div class="za-futura" style="position: absolute; left: 20px; top: 22px; font-size: 22px; line-height: 1; letter-spacing: -0.02em; color: #1D3B2D;">JANVĀRIS</div>
+    <div style="position: absolute; right: -14px; bottom: -66px; font-size: 330px; line-height: 1; letter-spacing: -0.075em; color: #1D3B2D;">16</div>
+    <p style="position: absolute; left: 20px; top: 54px; margin: 0; font-size: 20px; line-height: 1.2; letter-spacing: -0.03em;">Koncerts<br><span style="font-size: 14px; letter-spacing: -0.01em;">Sestdiena · 20:00</span></p>
   </div>
 
-  <span style="position: absolute; left: 1652px; top: 818px; font-size: 13px; color: #5E5B55;">Story</span>
-  <div lang="lv" style="position: absolute; left: 1652px; top: 841px; width: 204px; height: 375px; overflow: hidden; border-radius: 10px; background: #000; color: #F7F5F0;">
-    <img src="/_blob/dad971763c71ead49e975a7f08affc85" alt="Singer in amber glasses and an orange shirt, microphone to his mouth, hard light" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 44% 30%; display: block;">
-    <div class="fade-b" aria-hidden="true" style="position: absolute; inset: 0;"></div>
-    <div aria-hidden="true" style="position: absolute; left: 10px; right: 10px; top: 10px; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 3px;"><span style="height: 2px; background: #F7F5F0;"></span><span style="height: 2px; background: rgba(247,245,240,0.4);"></span><span style="height: 2px; background: rgba(247,245,240,0.4);"></span></div>
-    <div style="position: absolute; left: 16px; bottom: 76px; font-size: 32px; line-height: 1; letter-spacing: -0.05em;"><span style="position: relative; display: inline-block;">Šovakar<img src="/_blob/4846b02a3cde41cbf6bfae9fc6ec6f94" alt="" style="position: absolute; left: 100%; margin-left: 0.02em; top: -0.55em; width: 0.76em; height: 0.76em; display: block;"></span><br>20:00</div>
-    <span style="position: absolute; left: 16px; bottom: 26px; padding: 7px 12px 8px; border-radius: 999px; background: #F7F5F0; color: #0E0E0D; font-size: 12px; font-weight: 700; letter-spacing: -0.01em;">Biļetes ↗</span>
+  <span class="za-label" style="left: 1648px; top: 822px;">Instagram stāsts</span>
+  <div lang="lv" style="position: absolute; left: 1648px; top: 846px; width: 208px; height: 370px; overflow: hidden; border-radius: 10px; background: #0E0E0D; color: #FBFAF6; isolation: isolate;">
+    <img src="/_blob/4df73aafde6529f3f7c1262d87133723" alt="Viesis džinsa jakā ar glāzi durvīs, stūrī logotips" style="position: absolute; left: -22px; top: -91px; width: 340px; height: 512px; display: block;">
+    <div aria-hidden="true" style="position: absolute; inset: 0; background: linear-gradient(90deg, rgba(14,14,13,0.7) 0%, rgba(14,14,13,0.35) 40%, rgba(14,14,13,0) 60%);"></div>
+    <svg viewBox="0 0 100 100" aria-hidden="true" style="position: absolute; left: -84px; top: -84px; width: 250px; height: 250px; color: #FBFAF6; opacity: 0.32;"><use href="#md-logo" fill="currentColor"></use></svg>
+    <div aria-hidden="true" style="position: absolute; left: 10px; right: 10px; top: 9px; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 3px;"><span style="height: 2px; background: #FBFAF6;"></span><span style="height: 2px; background: rgba(251,250,246,0.4);"></span><span style="height: 2px; background: rgba(251,250,246,0.4);"></span></div>
+    <h3 style="position: absolute; left: 0; bottom: 10px; margin: 0; font-weight: 400; font-size: 92px; line-height: 1; letter-spacing: -0.06em; white-space: nowrap; transform-origin: 0 100%; transform: rotate(-90deg) translate(0, 100%);"><span style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%);">Vintage </span>tirdziņš</h3>
+    <p style="position: absolute; right: 12px; bottom: 14px; margin: 0; font-size: 14px; line-height: 1.25; letter-spacing: -0.01em; text-align: right;"><span aria-hidden="true">Vintage<br></span>S 16.01 · 12:00</p>
   </div>
 
-  <div class="grain" aria-hidden="true" style="position: absolute; inset: 0; mix-blend-mode: overlay; opacity: 0.22; pointer-events: none;"></div>
+  <div class="za-grain" aria-hidden="true" style="position: absolute; inset: 0; mix-blend-mode: multiply; opacity: 0.12; pointer-events: none;"></div>
 </div>
 </x-dc>
 <script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1920,"height":1280}}'>

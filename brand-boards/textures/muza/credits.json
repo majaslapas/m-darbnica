@@ -1,0 +1,388 @@
+{
+ "set": "Mūza brand direction (M/darbnīca) - classical and Rīga Art Nouveau image set",
+ "generated": "2026-10-24",
+ "palette": {
+  "cream": "#EFE7D8",
+  "deep_green": "#1F3A2D",
+  "dusty_rose": "#D9A6A1",
+  "deep_rose": "#B65A61",
+  "ink": "#151413",
+  "brass": "#A9844E"
+ },
+ "treatments": {
+  "natural": "'_cut.png' (cutouts) or '_natural.jpg' (crops): warm photographic grade; blacks lifted to ink #151413, whites rolled to warm off-white",
+  "green": "'_green': duotone deep green #1F3A2D (shadows) to cream #EFE7D8 (highlights), interpolated in OKLab",
+  "rose": "'_rose': duotone ink #151413 (shadows) to dusty rose #D9A6A1 (highlights), interpolated in OKLab"
+ },
+ "formats": "Cutouts: 8-bit indexed PNG with full alpha (223 colours, plus 32 semi-transparent edge entries in 8 alpha steps, and 1 transparent). Crops: progressive JPG at quality 85, max 1400 px.",
+ "avoided_object_ids": "All Met objectIDs in haralds-brand credits.json were excluded (none used).",
+ "entries": [
+  {
+   "id": "muza_head_profile",
+   "kind": "sculpture cutout (RGBA)",
+   "files": [
+    {
+     "file": "muza_head_profile_cut.png",
+     "width": 1100,
+     "height": 1403,
+     "bytes": 698249,
+     "alpha": true
+    }
+   ],
+   "title": "Marble head of a woman",
+   "artist": "Unknown artist (Roman)",
+   "date": "1st–2nd century CE",
+   "culture": "Roman",
+   "period": "Imperial",
+   "medium": "Marble",
+   "institution": "The Metropolitan Museum of Art, New York",
+   "department": "Greek and Roman Art",
+   "accession_number": "30.11.13",
+   "credit_line": "Fletcher Fund, 1930",
+   "source": {
+    "type": "Met Open Access",
+    "objectID": 253057,
+    "objectURL": "https://www.metmuseum.org/art/collection/search/253057",
+    "image_url": "https://images.metmuseum.org/CRDImages/gr/original/DP202801.jpg",
+    "image_view": "additionalImages[1]"
+   },
+   "license": "CC0 1.0 (Met Open Access, public domain)",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "attribution": "Marble head of a woman, 1st–2nd century CE. The Metropolitan Museum of Art, Fletcher Fund, 1930 (CC0).",
+   "attribution_required": false,
+   "processing": "Additional view 2 (strict profile). Background removed (watershed+GrabCut, guided-filter edge); mount rod removed; resized to ~1400 px.",
+   "suggested_use": "Hero cutout: pure right-facing profile; place type in the space in front of the face; works huge and cropped off an edge."
+  },
+  {
+   "id": "muza_dancer_bronze",
+   "kind": "sculpture cutout (RGBA)",
+   "files": [
+    {
+     "file": "muza_dancer_bronze_cut.png",
+     "width": 745,
+     "height": 1398,
+     "bytes": 454843,
+     "alpha": true
+    }
+   ],
+   "title": "Bronze statuette of a veiled and masked dancer",
+   "artist": "Unknown artist (Greek)",
+   "date": "3rd–2nd century BCE",
+   "culture": "Greek",
+   "period": "Hellenistic",
+   "medium": "Bronze",
+   "institution": "The Metropolitan Museum of Art, New York",
+   "department": "Greek and Roman Art",
+   "accession_number": "1972.118.95",
+   "credit_line": "Bequest of Walter C. Baker, 1971",
+   "source": {
+    "type": "Met Open Access",
+    "objectID": 255408,
+    "objectURL": "https://www.metmuseum.org/art/collection/search/255408",
+    "image_url": "https://images.metmuseum.org/CRDImages/gr/original/DP118070.jpg",
+    "image_view": "primary image"
+   },
+   "license": "CC0 1.0 (Met Open Access, public domain)",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "attribution": "Bronze statuette of a veiled and masked dancer, 3rd–2nd century BCE. The Metropolitan Museum of Art, Bequest of Walter C. Baker, 1971 (CC0).",
+   "attribution_required": false,
+   "processing": "Primary view. Background removed; foot and hem kept; floor shadow removed.",
+   "suggested_use": "Signature figure for music/dance nights: tall, veiled, in motion. Use full-height on posters or as a narrow column beside text."
+  },
+  {
+   "id": "muza_mask_tragic",
+   "kind": "sculpture cutout (RGBA)",
+   "files": [
+    {
+     "file": "muza_mask_tragic_green.png",
+     "width": 1101,
+     "height": 1131,
+     "bytes": 874332,
+     "alpha": true
+    },
+    {
+     "file": "muza_mask_tragic_rose.png",
+     "width": 1101,
+     "height": 1131,
+     "bytes": 877464,
+     "alpha": true
+    }
+   ],
+   "title": "Mask, tragic female",
+   "artist": "Unknown artist (Roman)",
+   "date": "undated (Met lists no date; catalogue range 670 BCE–330 CE)",
+   "culture": "Roman",
+   "period": null,
+   "medium": "Terracotta",
+   "institution": "The Metropolitan Museum of Art, New York",
+   "department": "Greek and Roman Art",
+   "accession_number": "06.1103",
+   "credit_line": "Rogers Fund, 1906",
+   "source": {
+    "type": "Met Open Access",
+    "objectID": 247521,
+    "objectURL": "https://www.metmuseum.org/art/collection/search/247521",
+    "image_url": "https://images.metmuseum.org/CRDImages/gr/original/LC-06_1103.jpg",
+    "image_view": "primary image"
+   },
+   "license": "CC0 1.0 (Met Open Access, public domain)",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "attribution": "Mask, tragic female. The Metropolitan Museum of Art, Rogers Fund, 1906 (CC0).",
+   "attribution_required": false,
+   "processing": "Primary view. Background removed; through-holes (eyes, mouth, suspension hole) made transparent; red museum inventory number retouched out.",
+   "suggested_use": "Theatre/cinema motif; frontal and graphic. Eye and mouth openings are transparent, so a colour or photo can show through."
+  },
+  {
+   "id": "muza_capital_pilaster",
+   "kind": "architecture cutout (RGBA)",
+   "files": [
+    {
+     "file": "muza_capital_pilaster_rose.png",
+     "width": 1318,
+     "height": 999,
+     "bytes": 867773,
+     "alpha": true
+    }
+   ],
+   "title": "Marble pilaster capital",
+   "artist": "Unknown artist (Roman)",
+   "date": "1st half of 1st century CE",
+   "culture": "Roman",
+   "period": "Early Imperial, Julio-Claudian",
+   "medium": "Marble",
+   "institution": "The Metropolitan Museum of Art, New York",
+   "department": "Greek and Roman Art",
+   "accession_number": "26.60.84",
+   "credit_line": "Fletcher Fund, 1926",
+   "source": {
+    "type": "Met Open Access",
+    "objectID": 252548,
+    "objectURL": "https://www.metmuseum.org/art/collection/search/252548",
+    "image_url": "https://images.metmuseum.org/CRDImages/gr/original/DP-14287-096.jpg",
+    "image_view": "primary image"
+   },
+   "license": "CC0 1.0 (Met Open Access, public domain)",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "attribution": "Marble pilaster capital, 1st half of 1st century CE. The Metropolitan Museum of Art, Fletcher Fund, 1926 (CC0).",
+   "attribution_required": false,
+   "processing": "Primary view. Background and cast shadow removed.",
+   "suggested_use": "Architectural accent: a crown above a headline or a footer anchor; volutes, acanthus and a small central head."
+  },
+  {
+   "id": "muza_fresco_kithara",
+   "kind": "wall-painting detail (rectangular crop)",
+   "files": [
+    {
+     "file": "muza_fresco_kithara_natural.jpg",
+     "width": 1400,
+     "height": 1139,
+     "bytes": 431640,
+     "alpha": false
+    }
+   ],
+   "title": "Wall painting from Room H of the Villa of P. Fannius Synistor at Boscoreale",
+   "artist": "Unknown artist (Roman)",
+   "date": "ca. 50–40 BCE",
+   "culture": "Roman",
+   "period": "Late Republican",
+   "medium": "Fresco",
+   "institution": "The Metropolitan Museum of Art, New York",
+   "department": "Greek and Roman Art",
+   "accession_number": "03.14.5",
+   "credit_line": "Rogers Fund, 1903",
+   "source": {
+    "type": "Met Open Access",
+    "objectID": 247009,
+    "objectURL": "https://www.metmuseum.org/art/collection/search/247009",
+    "image_url": "https://images.metmuseum.org/CRDImages/gr/original/DP118093.jpg",
+    "image_view": "additionalImages[1]"
+   },
+   "license": "CC0 1.0 (Met Open Access, public domain)",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "attribution": "Wall painting from Room H of the Villa of P. Fannius Synistor at Boscoreale, ca. 50–40 BCE. The Metropolitan Museum of Art, Rogers Fund, 1903 (CC0).",
+   "attribution_required": false,
+   "processing": "Detail view (additionalImages[1]) of the Boscoreale Room H panel; slight trims at the sides.",
+   "suggested_use": "Narrative image: seated woman with a kithara and a girl behind her chair; Pompeian red; works as a large editorial picture."
+  },
+  {
+   "id": "muza_fresco_redfield",
+   "kind": "colour field / texture (rectangular crop)",
+   "files": [
+    {
+     "file": "muza_fresco_redfield_natural.jpg",
+     "width": 1400,
+     "height": 537,
+     "bytes": 216997,
+     "alpha": false
+    }
+   ],
+   "title": "Wall painting from Room H of the Villa of P. Fannius Synistor at Boscoreale",
+   "artist": "Unknown artist (Roman)",
+   "date": "ca. 50–40 BCE",
+   "culture": "Roman",
+   "period": "Late Republican",
+   "medium": "Fresco",
+   "institution": "The Metropolitan Museum of Art, New York",
+   "department": "Greek and Roman Art",
+   "accession_number": "03.14.5",
+   "credit_line": "Rogers Fund, 1903",
+   "source": {
+    "type": "Met Open Access",
+    "objectID": 247009,
+    "objectURL": "https://www.metmuseum.org/art/collection/search/247009",
+    "image_url": "https://images.metmuseum.org/CRDImages/gr/original/DP105943.jpg",
+    "image_view": "primary image"
+   },
+   "license": "CC0 1.0 (Met Open Access, public domain)",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "attribution": "Wall painting from Room H of the Villa of P. Fannius Synistor at Boscoreale, ca. 50–40 BCE. The Metropolitan Museum of Art, Rogers Fund, 1903 (CC0).",
+   "attribution_required": false,
+   "processing": "Crop of the plain red wall in the upper right of the same panel (above the figures, below the painted cornice).",
+   "suggested_use": "Colour field: cracked Pompeian red plaster with no figures; use as a band, backdrop or texture behind type."
+  },
+  {
+   "id": "muza_facade_alberta13_mask",
+   "kind": "facade detail (rectangular crop)",
+   "files": [
+    {
+     "file": "muza_facade_alberta13_mask_rose.jpg",
+     "width": 1183,
+     "height": 1400,
+     "bytes": 333615,
+     "alpha": false
+    }
+   ],
+   "title": "Screaming mascaron with turban-like headdress",
+   "artist": "Richardmaackphotography (photographer); facade: Mikhail Eisenstein",
+   "photographer": "Richardmaackphotography",
+   "date": "photo 2010-09-04; building 1904",
+   "building": "Alberta iela 13, Rīga",
+   "architect": "Mikhail Eisenstein",
+   "source": {
+    "type": "Wikimedia Commons",
+    "file": "File:Latvia, Riga, Central Riga, Art Nouveau, Detail 150502-51.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Latvia,_Riga,_Central_Riga,_Art_Nouveau,_Detail_150502-51.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Latvia%2C_Riga%2C_Central_Riga%2C_Art_Nouveau%2C_Detail_150502-51.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "original_size": "3600x5606",
+    "downloaded_rendition": "1920 px rendition (full-size original was rate-limited by Commons)",
+    "description": "13 Albert Street (Alberta iela 13), Art Nouveau, Detail, Central Riga, Riga, Latvia"
+   },
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "attribution": "Photo: Richardmaackphotography, CC BY 4.0, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Latvia,_Riga,_Central_Riga,_Art_Nouveau,_Detail_150502-51.jpg). Cropped and colour-graded.",
+   "attribution_required": true,
+   "share_alike": false,
+   "license_note": "Credit the photographer and licence wherever the image is published; note that it was modified.",
+   "processing": "Crop of the head and headdress (top 7% and bottom 17% trimmed).",
+   "suggested_use": "Most striking facade image: the open-mouthed face suits jazz/DJ nights; crop tighter to the face for avatars."
+  },
+  {
+   "id": "muza_facade_alberta13_peacock",
+   "kind": "facade detail (rectangular crop)",
+   "files": [
+    {
+     "file": "muza_facade_alberta13_peacock_rose.jpg",
+     "width": 794,
+     "height": 1400,
+     "bytes": 204060,
+     "alpha": false
+    }
+   ],
+   "title": "Peacock relief with fanned tail under stylised buds",
+   "artist": "Richardmaackphotography (photographer); facade: Mikhail Eisenstein",
+   "photographer": "Richardmaackphotography",
+   "date": "photo 2010-09-04; building 1904",
+   "building": "Alberta iela 13, Rīga",
+   "architect": "Mikhail Eisenstein",
+   "source": {
+    "type": "Wikimedia Commons",
+    "file": "File:Latvia, Riga, Central Riga, Art Nouveau, Detail 150502-60.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Latvia,_Riga,_Central_Riga,_Art_Nouveau,_Detail_150502-60.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Latvia%2C_Riga%2C_Central_Riga%2C_Art_Nouveau%2C_Detail_150502-60.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "original_size": "3600x6123",
+    "downloaded_rendition": "1920 px rendition (full-size original was rate-limited by Commons)",
+    "description": "13 Albert Street (Alberta iela 13), Art Nouveau, Detail, Central Riga, Riga, Latvia"
+   },
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "attribution": "Photo: Richardmaackphotography, CC BY 4.0, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Latvia,_Riga,_Central_Riga,_Art_Nouveau,_Detail_150502-60.jpg). Cropped and colour-graded.",
+   "attribution_required": true,
+   "share_alike": false,
+   "license_note": "Credit the photographer and licence wherever the image is published; note that it was modified.",
+   "processing": "Crop of the relief and its buds, cornice bands trimmed.",
+   "suggested_use": "Vertical ornament for narrow layouts (stories, side columns, ticket stubs); the peacock tail is the hero."
+  },
+  {
+   "id": "muza_facade_alberta13_winged",
+   "kind": "facade detail (rectangular crop)",
+   "files": [
+    {
+     "file": "muza_facade_alberta13_winged_natural.jpg",
+     "width": 1400,
+     "height": 1239,
+     "bytes": 302482,
+     "alpha": false
+    }
+   ],
+   "title": "Winged female head (crowned) on a console",
+   "artist": "Richardmaackphotography (photographer); facade: Mikhail Eisenstein",
+   "photographer": "Richardmaackphotography",
+   "date": "photo 2010-09-04; building 1904",
+   "building": "Alberta iela 13, Rīga",
+   "architect": "Mikhail Eisenstein",
+   "source": {
+    "type": "Wikimedia Commons",
+    "file": "File:Latvia, Riga, Central Riga, Art Nouveau, Detail 150502-41.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Latvia,_Riga,_Central_Riga,_Art_Nouveau,_Detail_150502-41.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Latvia%2C_Riga%2C_Central_Riga%2C_Art_Nouveau%2C_Detail_150502-41.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "original_size": "3900x5587",
+    "downloaded_rendition": "3840 px rendition",
+    "description": "13 Albert Street (Alberta iela 13), Art Nouveau, Detail, Central Riga, Riga, Latvia"
+   },
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "attribution": "Photo: Richardmaackphotography, CC BY 4.0, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Latvia,_Riga,_Central_Riga,_Art_Nouveau,_Detail_150502-41.jpg). Cropped and colour-graded.",
+   "attribution_required": true,
+   "share_alike": false,
+   "license_note": "Credit the photographer and licence wherever the image is published; note that it was modified.",
+   "processing": "Crop of the head, crown and upper wings (upper 44% of the photo).",
+   "suggested_use": "The 'muse' of the facade: frontal female face with crown and wings; good for the Mūza name lock-up or covers."
+  },
+  {
+   "id": "muza_facade_elizabetes33_atlas",
+   "kind": "facade detail (rectangular crop)",
+   "files": [
+    {
+     "file": "muza_facade_elizabetes33_atlas_green.jpg",
+     "width": 1081,
+     "height": 1400,
+     "bytes": 256112,
+     "alpha": false
+    }
+   ],
+   "title": "Atlas (male caryatid) carrying the cornice",
+   "artist": "Richardmaackphotography (photographer); facade: Mikhail Eisenstein",
+   "photographer": "Richardmaackphotography",
+   "date": "photo 2010-09-04; building 1901",
+   "building": "Elizabetes iela 33, Rīga",
+   "architect": "Mikhail Eisenstein",
+   "source": {
+    "type": "Wikimedia Commons",
+    "file": "File:Latvia, Riga, Central Riga, Art Nouveau, Detail 150502-53.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Latvia,_Riga,_Central_Riga,_Art_Nouveau,_Detail_150502-53.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Latvia%2C_Riga%2C_Central_Riga%2C_Art_Nouveau%2C_Detail_150502-53.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "original_size": "3600x5431",
+    "downloaded_rendition": "1920 px rendition (full-size original was rate-limited by Commons)",
+    "description": "33 Elizabetes Street (Elizabetes iela 33), Art Nouveau, Detail, Central Riga, Riga, Latvia"
+   },
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "attribution": "Photo: Richardmaackphotography, CC BY 4.0, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Latvia,_Riga,_Central_Riga,_Art_Nouveau,_Detail_150502-53.jpg). Cropped and colour-graded.",
+   "attribution_required": true,
+   "share_alike": false,
+   "license_note": "Credit the photographer and licence wherever the image is published; note that it was modified.",
+   "processing": "Crop from the cornice to the knotted drapery.",
+   "suggested_use": "Weight and effort: the bearded atlas carrying the cornice; strong as a full-bleed portrait or for heavy-music nights."
+  }
+ ]
+}

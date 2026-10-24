@@ -1,0 +1,151 @@
+{
+ "collection": "M/darbnica brand board, direction \"Afisa\" - image assets (assets8/afisa)",
+ "generated": "2026-10-24",
+ "halftone_masters": "Black #000000 dots on transparent RGBA PNG; recolour in the browser (e.g. SVG feFlood + feComposite in). *_halftone_rose.png are pre-coloured #9E2F3A examples; *_halftone_inv.png put dots on the highlights (for light dots on a dark ground).",
+ "items": [
+  {
+   "subject": "sax",
+   "derived_files": [
+    "afisa_sax_halftone.png",
+    "afisa_sax_halftone_inv.png"
+   ],
+   "title": "Alto saxophone in E-flat",
+   "maker": "Adolphe (Antoine Joseph) Sax",
+   "maker_nationality": "Belgian, active France",
+   "culture": "French",
+   "date": "ca. 1855",
+   "medium": "Brass",
+   "accession_number": "2005.82.1a–e, .2a–y",
+   "credit_line": "Purchase, Robert Alonzo Lehman Bequest, 2005",
+   "met_object_id": 503909,
+   "object_url": "https://www.metmuseum.org/art/collection/search/503909",
+   "source_image_url": "https://images.metmuseum.org/CRDImages/mi/original/DP338623.jpg",
+   "is_public_domain": true,
+   "licence": "CC0 1.0 Universal (The Metropolitan Museum of Art Open Access)",
+   "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "notes": "Adolphe Sax alto saxophone, frontal view."
+  },
+  {
+   "subject": "trumpet",
+   "derived_files": [
+    "afisa_trumpet_stencil.svg"
+   ],
+   "title": "Valve Trumpet in F",
+   "maker": "Courtois & Mille",
+   "maker_nationality": "French",
+   "culture": "French",
+   "date": "1881–85",
+   "medium": "Brass, silver-plated",
+   "accession_number": "2001.187a–i",
+   "credit_line": "Purchase, Bequest of Robert Alonzo Lehman, by exchange, 2001",
+   "met_object_id": 503961,
+   "object_url": "https://www.metmuseum.org/art/collection/search/503961",
+   "source_image_url": "https://images.metmuseum.org/CRDImages/mi/original/DP-12679-145.jpg",
+   "is_public_domain": true,
+   "licence": "CC0 1.0 Universal (The Metropolitan Museum of Art Open Access)",
+   "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "notes": "Valve trumpet with an unusual long-loop wrap; see-through gaps between the valve casings and slide tubes were opened up by hand-placed hints."
+  },
+  {
+   "subject": "trombone",
+   "derived_files": [
+    "afisa_trombone_stencil.svg"
+   ],
+   "title": "Trombone",
+   "maker": "Unknown maker (European)",
+   "maker_nationality": null,
+   "culture": "European",
+   "date": "mid-19th century",
+   "medium": "Brass",
+   "accession_number": "89.4.3253",
+   "credit_line": "The Crosby Brown Collection of Musical Instruments, 1889",
+   "met_object_id": 504686,
+   "object_url": "https://www.metmuseum.org/art/collection/search/504686",
+   "source_image_url": "https://images.metmuseum.org/CRDImages/mi/original/DP-12679-119.jpg",
+   "is_public_domain": true,
+   "licence": "CC0 1.0 Universal (The Metropolitan Museum of Art Open Access)",
+   "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "notes": "Slide trombone, side view."
+  },
+  {
+   "subject": "bass",
+   "derived_files": [
+    "afisa_bass_halftone.png",
+    "afisa_bass_stencil.svg"
+   ],
+   "title": "Double Bass",
+   "maker": "Bartolomeo Cristofori",
+   "maker_nationality": "Italian",
+   "culture": "Italian",
+   "date": "18th century",
+   "medium": "Wood",
+   "accession_number": "1980.112",
+   "credit_line": "Purchase, The Crosby Brown Collection of Musical Instruments, Gifts of Dr. and Mrs. Guido S. Corriero and Andrea Manley, by exchange, Rogers Fund, and funds from various donors, 1980",
+   "met_object_id": 503176,
+   "object_url": "https://www.metmuseum.org/art/collection/search/503176",
+   "source_image_url": "https://images.metmuseum.org/CRDImages/mi/original/DP217153.jpg",
+   "is_public_domain": true,
+   "licence": "CC0 1.0 Universal (The Metropolitan Museum of Art Open Access)",
+   "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "notes": "Double bass attributed to Bartolomeo Cristofori, frontal view (view 4 of 4 on the object page)."
+  },
+  {
+   "subject": "clarinet",
+   "derived_files": [
+    "afisa_clarinet_stencil.svg"
+   ],
+   "title": "Clarinet in B-flat",
+   "maker": "Buffet, Crampon & Cie.",
+   "maker_nationality": "French",
+   "culture": "French",
+   "date": "ca. 1860–65",
+   "medium": "grenadilla (dalbergia melanoxylon), silver, cork",
+   "accession_number": "2021.436",
+   "credit_line": "Gift of David L. Hughes, in memory of Gervase de Peyer, 2021",
+   "met_object_id": 854790,
+   "object_url": "https://www.metmuseum.org/art/collection/search/854790",
+   "source_image_url": "https://images.metmuseum.org/CRDImages/mi/original/DP-23280-001.jpg",
+   "is_public_domain": true,
+   "licence": "CC0 1.0 Universal (The Metropolitan Museum of Art Open Access)",
+   "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "notes": "Clarinet in B-flat, frontal view."
+  },
+  {
+   "subject": "drum",
+   "derived_files": [
+    "afisa_drum_halftone.png",
+    "afisa_drum_stencil.svg"
+   ],
+   "title": "Bass Drum",
+   "maker": "John G. Pike",
+   "maker_nationality": "American",
+   "culture": "American",
+   "date": "1860–80",
+   "medium": "Wood, parchment, leather, metal",
+   "accession_number": "89.4.2523",
+   "credit_line": "The Crosby Brown Collection of Musical Instruments, 1889",
+   "met_object_id": 504262,
+   "object_url": "https://www.metmuseum.org/art/collection/search/504262",
+   "source_image_url": "https://images.metmuseum.org/CRDImages/mi/original/247113.jpg",
+   "is_public_domain": true,
+   "licence": "CC0 1.0 Universal (The Metropolitan Museum of Art Open Access)",
+   "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "notes": "Rope-tensioned bass drum; archival black-and-white photograph. Stencil and line versions redraw the rope lacing from the photo."
+  },
+  {
+   "subject": "logo",
+   "derived_files": [
+    "afisa_logo_halftone.png",
+    "afisa_logo_halftone_tint.png"
+   ],
+   "title": "M/darbnica logo: circle with a single-line M wave",
+   "maker": "M/darbnica (client mark)",
+   "source_file": "S/logo/m_logo.svg",
+   "met_object_id": null,
+   "object_url": null,
+   "is_public_domain": false,
+   "licence": "Client trademark/logo, NOT CC0.",
+   "notes": "Rasterised at 1400 px in the browser, then screened (cell 12 px, 45 deg)."
+  }
+ ]
+}
